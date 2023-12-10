@@ -1,0 +1,48 @@
+﻿using Aspire.Core.IServices;
+using Aspire.Core.Model.Models;
+using Aspire.Core.Services.BASE;
+
+namespace Aspire.Core.Services
+{
+    public class AdvertisementServices : BaseServices<Advertisement>, IAdvertisementServices
+    {
+        public void ReturnExp()
+        {
+
+            int a = 1;
+            int b = 0;
+
+            //  int c = a / b;
+        }
+
+        //public IAdvertisementRepository dal = new AdvertisementRepository();
+        //public int Sum(int i, int j)
+        //{
+        //    return base.Sum(i, j);
+
+        //}
+
+
+        //public int Add(Advertisement model)
+        //{
+        //    return base.Add(model);
+        //}
+
+        //public bool Delete(Advertisement model)
+        //{
+        //    return base.Delete(model);
+        //}
+
+        //public List<Advertisement> Query(Expression<Func<Advertisement, bool>> whereExpression)
+        //{
+        //    return base.Query(whereExpression);
+
+        //}
+
+        //public bool Update(Advertisement model)
+        //{
+        //    return base.Update(model);
+        //}
+
+    }
+}

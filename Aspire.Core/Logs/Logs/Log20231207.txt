@@ -1,0 +1,669 @@
+
+Date：2023-12-07 08:43:39.392
+LogLevel：Information
+Message：Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:43:39.431
+LogLevel：Information
+Message：Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:43:39.432
+LogLevel：Information
+Message：Quartz Scheduler created
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:43:39.433
+LogLevel：Information
+Message：RAMJobStore initialized.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:43:39.440
+LogLevel：Information
+Message：Quartz Scheduler 3.7.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:43:39.440
+LogLevel：Information
+Message：Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:43:39.441
+LogLevel：Information
+Message：Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:43:39.473
+LogLevel：Information
+Message：Start Initialization Db Seed Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:43:40.118
+LogLevel：Information
+Message：Start QuartzJob Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:43:40.138
+LogLevel：Information
+Message：JobFactory set to: Aspire.Core.Tasks.JobFactory
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:43:40.142
+LogLevel：Information
+Message：Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:43:40.165
+LogLevel：Information
+Message：Start Consul Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:43:40.167
+LogLevel：Information
+Message：Start EventBus Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:43:40.327
+LogLevel：Information
+Message：Now listening on: "http://[::]:9291"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:43:40.328
+LogLevel：Information
+Message：Application started. Press Ctrl+C to shut down.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:43:40.329
+LogLevel：Information
+Message：Hosting environment: "Development"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:43:40.329
+LogLevel：Information
+Message：Content root path: "C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:43:48.125
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:43:48.183
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-07 08:43:48","Date":"2023-12-07","Week":"周四"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:43:48.801
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"  responded 200 in 609.1441 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:43:48.804
+LogLevel：Information
+Message：{"result":false}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:43:48.809
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-07 08:43:48","OPTime":"674ms","RequestMethod":"POST","RequestData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:43:55.755
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:43:55.771
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-07 08:43:55","Date":"2023-12-07","Week":"周四"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:43:55.789
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"  responded 200 in 15.4374 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:43:55.791
+LogLevel：Information
+Message：{"result":false}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:43:55.792
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-07 08:43:55","OPTime":"35ms","RequestMethod":"POST","RequestData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:44:14.963
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:44:14.981
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-07 08:44:14","Date":"2023-12-07","Week":"周四"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:44:14.994
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"  responded 200 in 11.8919 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:44:14.996
+LogLevel：Information
+Message：{"result":false}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:44:14.997
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-07 08:44:14","OPTime":"32ms","RequestMethod":"POST","RequestData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:45:01.187
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Blogadmin\",\"pwd\":\"Blogadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:45:01.213
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-07 08:45:01","Date":"2023-12-07","Week":"周四"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:45:01.222
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Blogadmin\",\"pwd\":\"Blogadmin\"}"  responded 200 in 7.0936 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:45:01.224
+LogLevel：Information
+Message：{"result":false}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:45:01.226
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-07 08:45:01","OPTime":"35ms","RequestMethod":"POST","RequestData":"{\"name\":\"Blogadmin\",\"pwd\":\"Blogadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:45:10.853
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Blogadmin\",\"pwd\":\"Blogadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:45:10.895
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-07 08:45:10","Date":"2023-12-07","Week":"周四"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:45:10.906
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Blogadmin\",\"pwd\":\"Blogadmin\"}"  responded 200 in 8.3966 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:45:10.908
+LogLevel：Information
+Message：{"result":false}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:45:10.909
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-07 08:45:10","OPTime":"26ms","RequestMethod":"POST","RequestData":"{\"name\":\"Blogadmin\",\"pwd\":\"Blogadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:45:46.497
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Blogadmin\",\"pwd\":\"Blogadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:45:46.518
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-07 08:45:46","Date":"2023-12-07","Week":"周四"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:46:33.435
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Blogadmin\",\"pwd\":\"Blogadmin\"}"  responded 200 in 46915.7461 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:46:33.437
+LogLevel：Information
+Message：{"result":false}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:46:33.439
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-07 08:45:46","OPTime":"46938ms","RequestMethod":"POST","RequestData":"{\"name\":\"Blogadmin\",\"pwd\":\"Blogadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:50:50.743
+LogLevel：Information
+Message：Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:50:50.769
+LogLevel：Information
+Message：Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:50:50.769
+LogLevel：Information
+Message：Quartz Scheduler created
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:50:50.770
+LogLevel：Information
+Message：RAMJobStore initialized.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:50:50.771
+LogLevel：Information
+Message：Quartz Scheduler 3.7.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:50:50.776
+LogLevel：Information
+Message：Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:50:50.777
+LogLevel：Information
+Message：Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:50:50.805
+LogLevel：Information
+Message：Start Initialization Db Seed Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:50:51.378
+LogLevel：Information
+Message：Start QuartzJob Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:50:51.397
+LogLevel：Information
+Message：JobFactory set to: Aspire.Core.Tasks.JobFactory
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:50:51.400
+LogLevel：Information
+Message：Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:50:51.422
+LogLevel：Information
+Message：Start Consul Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:50:51.423
+LogLevel：Information
+Message：Start EventBus Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:50:51.544
+LogLevel：Information
+Message：Now listening on: "http://[::]:9291"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:50:51.545
+LogLevel：Information
+Message：Application started. Press Ctrl+C to shut down.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:50:51.546
+LogLevel：Information
+Message：Hosting environment: "Development"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:50:51.547
+LogLevel：Information
+Message：Content root path: "C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:51:24.229
+LogLevel：Information
+Message：Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:51:24.256
+LogLevel：Information
+Message：Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:51:24.256
+LogLevel：Information
+Message：Quartz Scheduler created
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:51:24.258
+LogLevel：Information
+Message：RAMJobStore initialized.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:51:24.259
+LogLevel：Information
+Message：Quartz Scheduler 3.7.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:51:24.263
+LogLevel：Information
+Message：Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:51:24.264
+LogLevel：Information
+Message：Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:51:24.310
+LogLevel：Information
+Message：Start Initialization Db Seed Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:51:24.924
+LogLevel：Information
+Message：Start QuartzJob Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:51:24.943
+LogLevel：Information
+Message：JobFactory set to: Aspire.Core.Tasks.JobFactory
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:51:24.946
+LogLevel：Information
+Message：Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:51:24.982
+LogLevel：Information
+Message：Start Consul Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:51:24.984
+LogLevel：Information
+Message：Start EventBus Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:51:25.102
+LogLevel：Information
+Message：Now listening on: "http://[::]:9291"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:51:25.103
+LogLevel：Information
+Message：Application started. Press Ctrl+C to shut down.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:51:25.104
+LogLevel：Information
+Message：Hosting environment: "Development"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:51:25.104
+LogLevel：Information
+Message：Content root path: "C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:56:00.258
+LogLevel：Information
+Message：Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:56:00.285
+LogLevel：Information
+Message：Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:56:00.285
+LogLevel：Information
+Message：Quartz Scheduler created
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:56:00.286
+LogLevel：Information
+Message：RAMJobStore initialized.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:56:00.287
+LogLevel：Information
+Message：Quartz Scheduler 3.7.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:56:00.292
+LogLevel：Information
+Message：Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:56:00.293
+LogLevel：Information
+Message：Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:56:00.324
+LogLevel：Information
+Message：Start Initialization Db Seed Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:56:01.725
+LogLevel：Information
+Message：Start QuartzJob Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:56:01.746
+LogLevel：Information
+Message：JobFactory set to: Aspire.Core.Tasks.JobFactory
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:56:01.750
+LogLevel：Information
+Message：Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:56:01.779
+LogLevel：Information
+Message：Start Consul Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:56:01.782
+LogLevel：Information
+Message：Start EventBus Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:56:01.935
+LogLevel：Information
+Message：Now listening on: "http://[::]:9291"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:56:01.936
+LogLevel：Information
+Message：Application started. Press Ctrl+C to shut down.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:56:01.937
+LogLevel：Information
+Message：Hosting environment: "Development"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:56:01.938
+LogLevel：Information
+Message：Content root path: "C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:56:09.880
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:56:09.916
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-07 08:56:09","Date":"2023-12-07","Week":"周四"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:56:10.506
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"  responded 200 in 554.0356 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:56:10.510
+LogLevel：Information
+Message：{"result":false}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:56:10.515
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-07 08:56:09","OPTime":"628ms","RequestMethod":"POST","RequestData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:57:02.628
+LogLevel：Information
+Message：Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:57:02.652
+LogLevel：Information
+Message：Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:57:02.654
+LogLevel：Information
+Message：Quartz Scheduler created
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:57:02.654
+LogLevel：Information
+Message：RAMJobStore initialized.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:57:02.659
+LogLevel：Information
+Message：Quartz Scheduler 3.7.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:57:02.659
+LogLevel：Information
+Message：Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:57:02.660
+LogLevel：Information
+Message：Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:57:02.697
+LogLevel：Information
+Message：Start Initialization Db Seed Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:57:03.240
+LogLevel：Information
+Message：Start QuartzJob Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:57:03.258
+LogLevel：Information
+Message：JobFactory set to: Aspire.Core.Tasks.JobFactory
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:57:03.262
+LogLevel：Information
+Message：Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:57:03.282
+LogLevel：Information
+Message：Start Consul Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:57:03.284
+LogLevel：Information
+Message：Start EventBus Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:57:03.400
+LogLevel：Information
+Message：Now listening on: "http://[::]:9291"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:57:03.401
+LogLevel：Information
+Message：Application started. Press Ctrl+C to shut down.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:57:03.402
+LogLevel：Information
+Message：Hosting environment: "Development"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:57:03.403
+LogLevel：Information
+Message：Content root path: "C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:57:11.901
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:57:11.943
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-07 08:57:11","Date":"2023-12-07","Week":"周四"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:57:52.708
+LogLevel：Information
+Message：Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:57:52.733
+LogLevel：Information
+Message：Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:57:52.734
+LogLevel：Information
+Message：Quartz Scheduler created
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:57:52.735
+LogLevel：Information
+Message：RAMJobStore initialized.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:57:52.736
+LogLevel：Information
+Message：Quartz Scheduler 3.7.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:57:52.740
+LogLevel：Information
+Message：Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:57:52.741
+LogLevel：Information
+Message：Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:57:52.776
+LogLevel：Information
+Message：Start Initialization Db Seed Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:57:53.350
+LogLevel：Information
+Message：Start QuartzJob Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:57:53.372
+LogLevel：Information
+Message：JobFactory set to: Aspire.Core.Tasks.JobFactory
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:57:53.375
+LogLevel：Information
+Message：Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:57:53.395
+LogLevel：Information
+Message：Start Consul Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:57:53.397
+LogLevel：Information
+Message：Start EventBus Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:57:53.501
+LogLevel：Information
+Message：Now listening on: "http://[::]:9291"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:57:53.502
+LogLevel：Information
+Message：Application started. Press Ctrl+C to shut down.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:57:53.503
+LogLevel：Information
+Message：Hosting environment: "Development"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:57:53.503
+LogLevel：Information
+Message：Content root path: "C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:58:03.224
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:58:03.265
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-07 08:58:03","Date":"2023-12-07","Week":"周四"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:58:03.755
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"  responded 200 in 449.9212 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:58:03.758
+LogLevel：Information
+Message：{"result":false}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:58:03.762
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-07 08:58:03","OPTime":"531ms","RequestMethod":"POST","RequestData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:58:26.002
+LogLevel：Information
+Message：Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:58:26.028
+LogLevel：Information
+Message：Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:58:26.029
+LogLevel：Information
+Message：Quartz Scheduler created
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:58:26.030
+LogLevel：Information
+Message：RAMJobStore initialized.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:58:26.034
+LogLevel：Information
+Message：Quartz Scheduler 3.7.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:58:26.035
+LogLevel：Information
+Message：Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:58:26.036
+LogLevel：Information
+Message：Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:58:26.068
+LogLevel：Information
+Message：Start Initialization Db Seed Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:58:27.497
+LogLevel：Information
+Message：Start QuartzJob Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:58:27.516
+LogLevel：Information
+Message：JobFactory set to: Aspire.Core.Tasks.JobFactory
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:58:27.520
+LogLevel：Information
+Message：Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:58:27.544
+LogLevel：Information
+Message：Start Consul Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:58:27.546
+LogLevel：Information
+Message：Start EventBus Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:58:27.670
+LogLevel：Information
+Message：Now listening on: "http://[::]:9291"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:58:27.672
+LogLevel：Information
+Message：Application started. Press Ctrl+C to shut down.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:58:27.673
+LogLevel：Information
+Message：Hosting environment: "Development"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:58:27.673
+LogLevel：Information
+Message：Content root path: "C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:58:35.270
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:58:35.310
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-07 08:58:35","Date":"2023-12-07","Week":"周四"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:58:36.582
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"  responded 200 in 1237.6569 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:58:36.586
+LogLevel：Information
+Message：{"result":true}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:58:36.590
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-07 08:58:35","OPTime":"1309ms","RequestMethod":"POST","RequestData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-07 08:58:36.715
+LogLevel：Information
+Message：HTTP "GET" "/mini-profiler-resources/includes.min.js" QueryString:"?v=4.2.22+4563a9e1ab" Body:""  responded 404 in 7.5619 ms
+----------------------------------------------------------------------------------------------------

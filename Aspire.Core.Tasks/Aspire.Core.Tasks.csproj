@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\build\common.targets" />
+
+  <ItemGroup>
+    <PackageReference Include="Quartz" Version="3.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aspire.Core.Common\Aspire.Core.Common.csproj" />
+    <ProjectReference Include="..\Aspire.Core.IServices\Aspire.Core.IServices.csproj" />
+    <ProjectReference Include="..\Aspire.Core.Repository\Aspire.Core.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

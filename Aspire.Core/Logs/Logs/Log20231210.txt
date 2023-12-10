@@ -1,0 +1,365 @@
+
+Date：2023-12-10 01:16:34.392
+LogLevel：Information
+Message：Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:34.428
+LogLevel：Information
+Message：Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:34.429
+LogLevel：Information
+Message：Quartz Scheduler created
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:34.437
+LogLevel：Information
+Message：RAMJobStore initialized.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:34.441
+LogLevel：Information
+Message：Quartz Scheduler 3.7.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:34.441
+LogLevel：Information
+Message：Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:34.443
+LogLevel：Information
+Message：Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:34.475
+LogLevel：Information
+Message：Start Initialization Db Seed Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:35.161
+LogLevel：Information
+Message：Start QuartzJob Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:35.182
+LogLevel：Information
+Message：JobFactory set to: Aspire.Core.Tasks.JobFactory
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:35.186
+LogLevel：Information
+Message：Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:35.207
+LogLevel：Information
+Message：Start Consul Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:35.209
+LogLevel：Information
+Message：Start EventBus Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:35.383
+LogLevel：Information
+Message：Now listening on: "http://[::]:9291"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:35.384
+LogLevel：Information
+Message：Application started. Press Ctrl+C to shut down.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:35.385
+LogLevel：Information
+Message：Hosting environment: "Development"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:35.386
+LogLevel：Information
+Message：Content root path: "C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:38.984
+LogLevel：Warning
+Message：Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:39.020
+LogLevel：Warning
+Message：Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:39.114
+LogLevel：Warning
+Message：Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:39.114
+LogLevel：Warning
+Message：Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:39.191
+LogLevel：Warning
+Message：Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.051
+LogLevel：Information
+Message：Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.090
+LogLevel：Information
+Message：Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.092
+LogLevel：Information
+Message：Quartz Scheduler created
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.093
+LogLevel：Information
+Message：RAMJobStore initialized.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.100
+LogLevel：Information
+Message：Quartz Scheduler 3.7.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.101
+LogLevel：Information
+Message：Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.101
+LogLevel：Information
+Message：Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.140
+LogLevel：Information
+Message：Start Initialization Db Seed Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.926
+LogLevel：Information
+Message：Start QuartzJob Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.953
+LogLevel：Information
+Message：JobFactory set to: Aspire.Core.Tasks.JobFactory
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.958
+LogLevel：Information
+Message：Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.980
+LogLevel：Information
+Message：Start Consul Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.982
+LogLevel：Information
+Message：Start EventBus Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:09.162
+LogLevel：Information
+Message：Now listening on: "http://[::]:9291"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:09.163
+LogLevel：Information
+Message：Application started. Press Ctrl+C to shut down.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:09.164
+LogLevel：Information
+Message：Hosting environment: "Development"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:09.165
+LogLevel：Information
+Message：Content root path: "C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:12.244
+LogLevel：Warning
+Message：Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:12.279
+LogLevel：Warning
+Message：Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:12.381
+LogLevel：Warning
+Message：Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:12.381
+LogLevel：Warning
+Message：Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:12.382
+LogLevel：Warning
+Message：Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:12.747
+LogLevel：Warning
+Message：Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:12.846
+LogLevel：Information
+Message：HTTP "GET" "/favicon.ico" QueryString:"" Body:""  responded 404 in 86.7060 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:15.001
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:15.052
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-10 13:28:15","Date":"2023-12-10","Week":"周日"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:15.055
+LogLevel：Warning
+Message：Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:16.192
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"  responded 200 in 1132.3047 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:16.196
+LogLevel：Information
+Message：{"result":true}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:16.200
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-10 13:28:15","OPTime":"1192ms","RequestMethod":"POST","RequestData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:16.290
+LogLevel：Information
+Message：HTTP "GET" "/mini-profiler-resources/includes.min.js" QueryString:"?v=4.2.22+4563a9e1ab" Body:""  responded 404 in 3.4062 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:29:25.310
+LogLevel：Information
+Message：{"Path":"/api/v2/Apb/apbs","QueryString":"","BodyData":""}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:29:25.343
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/v2/apb/apbs","Datetime":"2023-12-10 13:29:25","Date":"2023-12-10","Week":"周日"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:29:25.408
+LogLevel：Information
+Message：HTTP "GET" "/api/v2/Apb/apbs" QueryString:"" Body:""  responded 200 in 62.9553 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:29:25.411
+LogLevel：Information
+Message：["第二版的 apbs"]
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:29:25.413
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/v2/apb/apbs","BeginTime":"2023-12-10 13:29:25","OPTime":"92ms","RequestMethod":"GET","RequestData":"","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:30:03.368
+LogLevel：Information
+Message：{"Path":"/api/v2/Apb/apbs","QueryString":"","BodyData":""}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:30:03.388
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/v2/apb/apbs","Datetime":"2023-12-10 13:30:03","Date":"2023-12-10","Week":"周日"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:32:24.226
+LogLevel：Information
+Message：HTTP "GET" "/api/v2/Apb/apbs" QueryString:"" Body:""  responded 200 in 140836.1384 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:32:24.228
+LogLevel：Information
+Message：["第二版的 apbs"]
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:32:24.231
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/v2/apb/apbs","BeginTime":"2023-12-10 13:30:03","OPTime":"140860ms","RequestMethod":"GET","RequestData":"","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:32:26.666
+LogLevel：Information
+Message：{"Path":"/api/v2/Apb/apbs","QueryString":"","BodyData":""}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:32:26.684
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/v2/apb/apbs","Datetime":"2023-12-10 13:32:26","Date":"2023-12-10","Week":"周日"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:35:18.949
+LogLevel：Information
+Message：HTTP "GET" "/api/v2/Apb/apbs" QueryString:"" Body:""  responded 200 in 172262.9305 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:35:18.951
+LogLevel：Information
+Message：["第二版的 apbs"]
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:35:18.954
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/v2/apb/apbs","BeginTime":"2023-12-10 13:32:26","OPTime":"172285ms","RequestMethod":"GET","RequestData":"","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:35:23.252
+LogLevel：Information
+Message：{"Path":"/api/v2/Apb/apbs","QueryString":"","BodyData":""}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:35:23.269
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/v2/apb/apbs","Datetime":"2023-12-10 13:35:23","Date":"2023-12-10","Week":"周日"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:35:27.464
+LogLevel：Information
+Message：HTTP "GET" "/api/v2/Apb/apbs" QueryString:"" Body:""  responded 200 in 4193.1825 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:35:27.466
+LogLevel：Information
+Message：["第二版的 apbs"]
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:35:27.467
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/v2/apb/apbs","BeginTime":"2023-12-10 13:35:23","OPTime":"4213ms","RequestMethod":"GET","RequestData":"","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------

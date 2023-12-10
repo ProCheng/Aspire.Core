@@ -1,0 +1,974 @@
+
+Date：2023-12-10 01:16:34.756
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["UnKnown"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:34.818
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["AspireArticle"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT COUNT(1) FROM `AspireArticle`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:34.837
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["Modules"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT COUNT(1) FROM `Modules`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:34.847
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["Permission"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT COUNT(1) FROM `Permission`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:34.852
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["Role"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT COUNT(1) FROM `Role`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:34.859
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["RoleModulePermission"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT COUNT(1) FROM `RoleModulePermission`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:34.866
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["Topic"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT COUNT(1) FROM `Topic`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:34.875
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["TopicDetail"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT COUNT(1) FROM `TopicDetail`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:34.881
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["UserRole"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT COUNT(1) FROM `UserRole`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:34.891
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["SysUserInfo"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT COUNT(1) FROM `SysUserInfo`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:34.896
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["TasksQz"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT COUNT(1) FROM `TasksQz`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:34.903
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["TasksLog"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT COUNT(1) FROM `TasksLog`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:34.908
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["Department"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT COUNT(1) FROM `Department`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:34.929
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["BusinessTable"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT COUNT(1) FROM `BusinessTable`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:34.942
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["SysTenant"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT COUNT(1) FROM `SysTenant`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:34.979
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["SysUserInfo"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT `LoginName` FROM `SysUserInfo`  WHERE  (`LoginName` IN ('zhangsan','lisi','wangwu','zhaoliu','sunqi'))  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:35.004
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["SysTenant"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT `Name`,`TenantType`,`ConfigId`,`Host`,`DbType`,`Connection`,`Status`,`Remark`,`Id` FROM `SysTenant`  WHERE ( `TenantType` = @TenantType0 )  
+[Pars]:
+[Name]:@TenantType0 [Value]:2 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:35.103
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["SysTenant"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT `Name`,`TenantType`,`ConfigId`,`Host`,`DbType`,`Connection`,`Status`,`Remark`,`Id` FROM `SysTenant`  WHERE ( `TenantType` = @TenantType0 )  
+[Pars]:
+[Name]:@TenantType0 [Value]:3 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:35.119
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["UnKnown"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:35.122
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["UnKnown"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT count(*) FROM sqlite_master WHERE name = 'index_MultiBusinessSubTable_1000005_Enabled'
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:35.124
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["UnKnown"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT count(*) FROM sqlite_master WHERE name = 'index_MultiBusinessSubTable_1000005_IsDeleted'
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:35.137
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["UnKnown"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:35.140
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["UnKnown"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT count(*) FROM sqlite_master WHERE name = 'index_MultiBusinessTable_1000005_Enabled'
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:35.142
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["UnKnown"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT count(*) FROM sqlite_master WHERE name = 'index_MultiBusinessTable_1000005_IsDeleted'
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:35.149
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["MultiBusinessTable_1000005"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT COUNT(1) FROM `MultiBusinessTable_1000005`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:35.156
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["MultiBusinessSubTable_1000005"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT COUNT(1) FROM `MultiBusinessSubTable_1000005`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:16:35.173
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["TasksQz"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT `Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`CycleRunTimes`,`CycleHasRunTimes`,`IsStart`,`JobParams`,`IsDeleted`,`CreateTime`,`Id` FROM `TasksQz`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:20:00.219
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:["AspireArticle"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT `bID`,`bsubmitter`,`btitle`,`bcategory`,`bcontent`,`btraffic`,`bcommentNum`,`bUpdateTime`,`bCreateTime`,`bRemark`,`IsDeleted` FROM `AspireArticle`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:20:00.233
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:["TasksQz"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT `Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`CycleRunTimes`,`CycleHasRunTimes`,`IsStart`,`JobParams`,`IsDeleted`,`CreateTime`,`Id` FROM `TasksQz`  WHERE `Id` = @InPara0    
+[Pars]:
+[Name]:@InPara0 [Value]:1 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:20:00.246
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Insert"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:INSERT INTO `TasksLog`  
+           (`JobId`,`TotalTime`,`RunResult`,`RunTime`,`EndTime`,`RunPars`,`ErrMessage`,`ErrStackTrace`,`CreateId`,`CreateBy`,`CreateTime`,`ModifyId`,`ModifyBy`,`ModifyTime`,`Id`)
+     VALUES
+           (@JobId,@TotalTime,@RunResult,@RunTime,@EndTime,@RunPars,@ErrMessage,@ErrStackTrace,@CreateId,@CreateBy,@CreateTime,@ModifyId,@ModifyBy,@ModifyTime,@Id) ; 
+[Pars]:
+[Name]:@JobId [Value]:1 [Type]:Int64    
+[Name]:@TotalTime [Value]:0.013 [Type]:Double    
+[Name]:@RunResult [Value]:True [Type]:Boolean    
+[Name]:@RunTime [Value]:2023/12/10 1:20:00 [Type]:DateTime    
+[Name]:@EndTime [Value]:2023/12/10 1:20:00 [Type]:DateTime    
+[Name]:@RunPars [Value]:1 [Type]:String    
+[Name]:@ErrMessage [Value]: [Type]:String    
+[Name]:@ErrStackTrace [Value]: [Type]:String    
+[Name]:@CreateId [Value]: [Type]:Int32    
+[Name]:@CreateBy [Value]: [Type]:String    
+[Name]:@CreateTime [Value]:2023/12/10 1:20:00 [Type]:DateTime    
+[Name]:@ModifyId [Value]: [Type]:Int32    
+[Name]:@ModifyBy [Value]: [Type]:String    
+[Name]:@ModifyTime [Value]:2023/12/10 1:20:00 [Type]:DateTime    
+[Name]:@Id [Value]:1733536988369391616 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:20:00.311
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:["TasksQz"]  Operate:["Update"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:UPDATE `TasksQz`  SET
+           `Name`=@Name,`JobGroup`=@JobGroup,`Cron`=@Cron,`AssemblyName`=@AssemblyName,`ClassName`=@ClassName,`Remark`=@Remark,`RunTimes`=@RunTimes,`BeginTime`=@BeginTime,`EndTime`=@EndTime,`TriggerType`=@TriggerType,`IntervalSecond`=@IntervalSecond,`CycleRunTimes`=@CycleRunTimes,`CycleHasRunTimes`=@CycleHasRunTimes,`IsStart`=@IsStart,`JobParams`=@JobParams,`IsDeleted`=@IsDeleted,`CreateTime`=@CreateTime  WHERE `Id`=@Id 
+[Pars]:
+[Name]:@Name [Value]:博客管理 [Type]:String    
+[Name]:@JobGroup [Value]:博客测试组 [Type]:String    
+[Name]:@Cron [Value]:0 */5 * * * ? [Type]:String    
+[Name]:@AssemblyName [Value]:Aspire.Core.Tasks [Type]:String    
+[Name]:@ClassName [Value]:Job_Aspires_Quartz [Type]:String    
+[Name]:@Remark [Value]:【2023-12-10 01:20:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-10 01:20:00】【执行成功】(耗时:0.013秒)<br>【2023-12-09 19:55:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:55:00】【执行成功】(耗时:0.01秒)<br>【2023-12-09 19:50:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:50:00】【执行成功】(耗时:0.007秒)<br>【2023-12-09 19:45:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:45:00】【执行成功】(耗时:0.011秒)<br>【2023-12-09 19:40:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:40:00】【执行成功】(耗时:0.007秒)<br>【2023-12-09 19:35:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:35:00】【执行成功】(耗时:0.009秒)<br>【2023-12-09 19:20:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:20:00】【执行成功】(耗时:0.01秒)<br>【2023-12-09 19:05:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:05:00】【执行成功】(耗时:0.007秒)<br>【2023-12-09 19:00:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:00:00】【执行成功】(耗时:0.009秒)<br>【2023-12-09 18:45:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 18:45:00】【执行成功】(耗时:0.007秒) [Type]:String    
+[Name]:@RunTimes [Value]:13 [Type]:Int32    
+[Name]:@BeginTime [Value]:2019/1/1 0:00:00 [Type]:DateTime    
+[Name]:@EndTime [Value]:2251/9/5 23:46:40 [Type]:DateTime    
+[Name]:@TriggerType [Value]:1 [Type]:Int32    
+[Name]:@IntervalSecond [Value]:0 [Type]:Int32    
+[Name]:@CycleRunTimes [Value]:0 [Type]:Int32    
+[Name]:@CycleHasRunTimes [Value]:0 [Type]:Int32    
+[Name]:@IsStart [Value]:True [Type]:Boolean    
+[Name]:@JobParams [Value]:1 [Type]:String    
+[Name]:@IsDeleted [Value]:False [Type]:Boolean    
+[Name]:@CreateTime [Value]:2019/1/1 0:00:00 [Type]:DateTime    
+[Name]:@Id [Value]:1 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:25:00.016
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:["AspireArticle"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT `bID`,`bsubmitter`,`btitle`,`bcategory`,`bcontent`,`btraffic`,`bcommentNum`,`bUpdateTime`,`bCreateTime`,`bRemark`,`IsDeleted` FROM `AspireArticle`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:25:00.022
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:["TasksQz"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT `Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`CycleRunTimes`,`CycleHasRunTimes`,`IsStart`,`JobParams`,`IsDeleted`,`CreateTime`,`Id` FROM `TasksQz`  WHERE `Id` = @InPara0    
+[Pars]:
+[Name]:@InPara0 [Value]:1 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:25:00.029
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Insert"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:INSERT INTO `TasksLog`  
+           (`JobId`,`TotalTime`,`RunResult`,`RunTime`,`EndTime`,`RunPars`,`ErrMessage`,`ErrStackTrace`,`CreateId`,`CreateBy`,`CreateTime`,`ModifyId`,`ModifyBy`,`ModifyTime`,`Id`)
+     VALUES
+           (@JobId,@TotalTime,@RunResult,@RunTime,@EndTime,@RunPars,@ErrMessage,@ErrStackTrace,@CreateId,@CreateBy,@CreateTime,@ModifyId,@ModifyBy,@ModifyTime,@Id) ; 
+[Pars]:
+[Name]:@JobId [Value]:1 [Type]:Int64    
+[Name]:@TotalTime [Value]:0.008 [Type]:Double    
+[Name]:@RunResult [Value]:True [Type]:Boolean    
+[Name]:@RunTime [Value]:2023/12/10 1:25:00 [Type]:DateTime    
+[Name]:@EndTime [Value]:2023/12/10 1:25:00 [Type]:DateTime    
+[Name]:@RunPars [Value]:1 [Type]:String    
+[Name]:@ErrMessage [Value]: [Type]:String    
+[Name]:@ErrStackTrace [Value]: [Type]:String    
+[Name]:@CreateId [Value]: [Type]:Int32    
+[Name]:@CreateBy [Value]: [Type]:String    
+[Name]:@CreateTime [Value]:2023/12/10 1:25:00 [Type]:DateTime    
+[Name]:@ModifyId [Value]: [Type]:Int32    
+[Name]:@ModifyBy [Value]: [Type]:String    
+[Name]:@ModifyTime [Value]:2023/12/10 1:25:00 [Type]:DateTime    
+[Name]:@Id [Value]:1733538245754621952 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 01:25:00.108
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:["TasksQz"]  Operate:["Update"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:UPDATE `TasksQz`  SET
+           `Name`=@Name,`JobGroup`=@JobGroup,`Cron`=@Cron,`AssemblyName`=@AssemblyName,`ClassName`=@ClassName,`Remark`=@Remark,`RunTimes`=@RunTimes,`BeginTime`=@BeginTime,`EndTime`=@EndTime,`TriggerType`=@TriggerType,`IntervalSecond`=@IntervalSecond,`CycleRunTimes`=@CycleRunTimes,`CycleHasRunTimes`=@CycleHasRunTimes,`IsStart`=@IsStart,`JobParams`=@JobParams,`IsDeleted`=@IsDeleted,`CreateTime`=@CreateTime  WHERE `Id`=@Id 
+[Pars]:
+[Name]:@Name [Value]:博客管理 [Type]:String    
+[Name]:@JobGroup [Value]:博客测试组 [Type]:String    
+[Name]:@Cron [Value]:0 */5 * * * ? [Type]:String    
+[Name]:@AssemblyName [Value]:Aspire.Core.Tasks [Type]:String    
+[Name]:@ClassName [Value]:Job_Aspires_Quartz [Type]:String    
+[Name]:@Remark [Value]:【2023-12-10 01:25:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-10 01:25:00】【执行成功】(耗时:0.008秒)<br>【2023-12-10 01:20:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-10 01:20:00】【执行成功】(耗时:0.013秒)<br>【2023-12-09 19:55:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:55:00】【执行成功】(耗时:0.01秒)<br>【2023-12-09 19:50:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:50:00】【执行成功】(耗时:0.007秒)<br>【2023-12-09 19:45:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:45:00】【执行成功】(耗时:0.011秒)<br>【2023-12-09 19:40:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:40:00】【执行成功】(耗时:0.007秒)<br>【2023-12-09 19:35:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:35:00】【执行成功】(耗时:0.009秒)<br>【2023-12-09 19:20:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:20:00】【执行成功】(耗时:0.01秒)<br>【2023-12-09 19:05:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:05:00】【执行成功】(耗时:0.007秒)<br>【2023-12-09 19:00:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:00:00】【执行成功】(耗时:0.009秒) [Type]:String    
+[Name]:@RunTimes [Value]:14 [Type]:Int32    
+[Name]:@BeginTime [Value]:2019/1/1 0:00:00 [Type]:DateTime    
+[Name]:@EndTime [Value]:2251/9/5 23:46:40 [Type]:DateTime    
+[Name]:@TriggerType [Value]:1 [Type]:Int32    
+[Name]:@IntervalSecond [Value]:0 [Type]:Int32    
+[Name]:@CycleRunTimes [Value]:0 [Type]:Int32    
+[Name]:@CycleHasRunTimes [Value]:0 [Type]:Int32    
+[Name]:@IsStart [Value]:True [Type]:Boolean    
+[Name]:@JobParams [Value]:1 [Type]:String    
+[Name]:@IsDeleted [Value]:False [Type]:Boolean    
+[Name]:@CreateTime [Value]:2019/1/1 0:00:00 [Type]:DateTime    
+[Name]:@Id [Value]:1 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.523
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["UnKnown"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.585
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["AspireArticle"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT COUNT(1) FROM `AspireArticle`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.603
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["Modules"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT COUNT(1) FROM `Modules`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.613
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["Permission"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT COUNT(1) FROM `Permission`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.618
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["Role"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT COUNT(1) FROM `Role`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.625
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["RoleModulePermission"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT COUNT(1) FROM `RoleModulePermission`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.631
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["Topic"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT COUNT(1) FROM `Topic`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.641
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["TopicDetail"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT COUNT(1) FROM `TopicDetail`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.647
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["UserRole"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT COUNT(1) FROM `UserRole`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.656
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["SysUserInfo"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT COUNT(1) FROM `SysUserInfo`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.661
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["TasksQz"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT COUNT(1) FROM `TasksQz`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.667
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["TasksLog"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT COUNT(1) FROM `TasksLog`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.675
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["Department"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT COUNT(1) FROM `Department`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.698
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["BusinessTable"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT COUNT(1) FROM `BusinessTable`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.711
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["SysTenant"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT COUNT(1) FROM `SysTenant`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.756
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["SysUserInfo"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT `LoginName` FROM `SysUserInfo`  WHERE  (`LoginName` IN ('zhangsan','lisi','wangwu','zhaoliu','sunqi'))  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.792
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["SysTenant"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT `Name`,`TenantType`,`ConfigId`,`Host`,`DbType`,`Connection`,`Status`,`Remark`,`Id` FROM `SysTenant`  WHERE ( `TenantType` = @TenantType0 )  
+[Pars]:
+[Name]:@TenantType0 [Value]:2 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.867
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["SysTenant"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT `Name`,`TenantType`,`ConfigId`,`Host`,`DbType`,`Connection`,`Status`,`Remark`,`Id` FROM `SysTenant`  WHERE ( `TenantType` = @TenantType0 )  
+[Pars]:
+[Name]:@TenantType0 [Value]:3 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.882
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["UnKnown"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.885
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["UnKnown"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT count(*) FROM sqlite_master WHERE name = 'index_MultiBusinessSubTable_1000005_Enabled'
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.888
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["UnKnown"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT count(*) FROM sqlite_master WHERE name = 'index_MultiBusinessSubTable_1000005_IsDeleted'
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.901
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["UnKnown"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:select Name from sqlite_master where type='table' and name<>'sqlite_sequence' order by name;
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.904
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["UnKnown"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT count(*) FROM sqlite_master WHERE name = 'index_MultiBusinessTable_1000005_Enabled'
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.906
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["UnKnown"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT count(*) FROM sqlite_master WHERE name = 'index_MultiBusinessTable_1000005_IsDeleted'
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.914
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["MultiBusinessTable_1000005"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT COUNT(1) FROM `MultiBusinessTable_1000005`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.920
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["MultiBusinessSubTable_1000005"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT COUNT(1) FROM `MultiBusinessSubTable_1000005`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:08.939
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:["TasksQz"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT `Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`CycleRunTimes`,`CycleHasRunTimes`,`IsStart`,`JobParams`,`IsDeleted`,`CreateTime`,`Id` FROM `TasksQz`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:15.529
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:["SysUserInfo"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT `LoginName`,`LoginPWD`,`RealName`,`Status`,`DepartmentId`,`Remark`,`CreateTime`,`UpdateTime`,`CriticalModifyTime`,`LastErrorTime`,`ErrorCount`,`Name`,`Sex`,`Age`,`Birth`,`Address`,`Enable`,`IsDeleted`,`TenantId`,`Id` FROM `SysUserInfo`  WHERE ((( `LoginName` = @LoginName0 ) AND ( `LoginPWD` = @LoginPWD1 )) AND ( `IsDeleted` = @IsDeleted2 ))  
+[Pars]:
+[Name]:@LoginName0 [Value]:Aspireadmin [Type]:String    
+[Name]:@LoginPWD1 [Value]:18D3C845AC42C7062B0CEA268FF66B2A [Type]:String    
+[Name]:@IsDeleted2 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:15.540
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:["SysUserInfo"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT `LoginName`,`LoginPWD`,`RealName`,`Status`,`DepartmentId`,`Remark`,`CreateTime`,`UpdateTime`,`CriticalModifyTime`,`LastErrorTime`,`ErrorCount`,`Name`,`Sex`,`Age`,`Birth`,`Address`,`Enable`,`IsDeleted`,`TenantId`,`Id` FROM `SysUserInfo`  WHERE (( `LoginName` = @LoginName0 ) AND ( `LoginPWD` = @LoginPWD1 ))  
+[Pars]:
+[Name]:@LoginName0 [Value]:Aspireadmin [Type]:String    
+[Name]:@LoginPWD1 [Value]:18D3C845AC42C7062B0CEA268FF66B2A [Type]:String    
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:15.549
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:["Role"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT `IsDeleted`,`Name`,`Description`,`OrderSort`,`Dids`,`AuthorityScope`,`Enabled`,`CreateId`,`CreateBy`,`CreateTime`,`ModifyId`,`ModifyBy`,`ModifyTime`,`Id` FROM `Role`  WHERE ( `IsDeleted` = @IsDeleted0 )  
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:15.559
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:["UserRole"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT `IsDeleted`,`CreateId`,`CreateBy`,`CreateTime`,`ModifyId`,`ModifyBy`,`ModifyTime`,`UserId`,`RoleId`,`Id` FROM `UserRole`  WHERE ( `UserId` = @UserId0 )  
+[Pars]:
+[Name]:@UserId0 [Value]:12 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:28:15.595
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:["RoleModulePermission"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  `r`.`IsDeleted` AS `r.Role.IsDeleted` , `r`.`Name` AS `r.Role.Name` , `r`.`Description` AS `r.Role.Description` , `r`.`OrderSort` AS `r.Role.OrderSort` , `r`.`Dids` AS `r.Role.Dids` , `r`.`AuthorityScope` AS `r.Role.AuthorityScope` , `r`.`Enabled` AS `r.Role.Enabled` , `r`.`CreateId` AS `r.Role.CreateId` , `r`.`CreateBy` AS `r.Role.CreateBy` , `r`.`CreateTime` AS `r.Role.CreateTime` , `r`.`ModifyId` AS `r.Role.ModifyId` , `r`.`ModifyBy` AS `r.Role.ModifyBy` , `r`.`ModifyTime` AS `r.Role.ModifyTime` , `r`.`Id` AS `r.Role.Id` , `m`.`IsDeleted` AS `m.Modules.IsDeleted` , `m`.`Name` AS `m.Modules.Name` , `m`.`LinkUrl` AS `m.Modules.LinkUrl` , `m`.`Area` AS `m.Modules.Area` , `m`.`Controller` AS `m.Modules.Controller` , `m`.`Action` AS `m.Modules.Action` , `m`.`Icon` AS `m.Modules.Icon` , `m`.`Code` AS `m.Modules.Code` , `m`.`OrderSort` AS `m.Modules.OrderSort` , `m`.`Description` AS `m.Modules.Description` , `m`.`IsMenu` AS `m.Modules.IsMenu` , `m`.`Enabled` AS `m.Modules.Enabled` , `m`.`CreateId` AS `m.Modules.CreateId` , `m`.`CreateBy` AS `m.Modules.CreateBy` , `m`.`CreateTime` AS `m.Modules.CreateTime` , `m`.`ModifyId` AS `m.Modules.ModifyId` , `m`.`ModifyBy` AS `m.Modules.ModifyBy` , `m`.`ModifyTime` AS `m.Modules.ModifyTime` , `m`.`ParentId` AS `m.Modules.ParentId` , `m`.`Id` AS `m.Modules.Id` , `rmp`.`IsDeleted` AS `IsDeleted`  FROM `RoleModulePermission` `rmp` Left JOIN `Modules` `m` ON ( `rmp`.`ModuleId` = `m`.`Id` )  Left JOIN `Role` `r` ON ( `rmp`.`RoleId` = `r`.`Id` )   WHERE ((( `rmp`.`IsDeleted` = @IsDeleted0 ) AND ( `m`.`IsDeleted` = @IsDeleted1 )) AND ( `r`.`IsDeleted` = @IsDeleted2 ))  
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+[Name]:@IsDeleted1 [Value]:False [Type]:Boolean    
+[Name]:@IsDeleted2 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:29:25.393
+LogLevel：Information
+Message：------------------ 
+ User:["Aspireadmin"]  Table:["SysUserInfo"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT `LoginName`,`LoginPWD`,`RealName`,`Status`,`DepartmentId`,`Remark`,`CreateTime`,`UpdateTime`,`CriticalModifyTime`,`LastErrorTime`,`ErrorCount`,`Name`,`Sex`,`Age`,`Birth`,`Address`,`Enable`,`IsDeleted`,`TenantId`,`Id` FROM `SysUserInfo`  WHERE `Id` = @InPara0    
+[Pars]:
+[Name]:@InPara0 [Value]:12 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:30:00.240
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:["AspireArticle"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT `bID`,`bsubmitter`,`btitle`,`bcategory`,`bcontent`,`btraffic`,`bcommentNum`,`bUpdateTime`,`bCreateTime`,`bRemark`,`IsDeleted` FROM `AspireArticle`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:30:00.250
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:["TasksQz"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT `Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`CycleRunTimes`,`CycleHasRunTimes`,`IsStart`,`JobParams`,`IsDeleted`,`CreateTime`,`Id` FROM `TasksQz`  WHERE `Id` = @InPara0    
+[Pars]:
+[Name]:@InPara0 [Value]:1 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:30:00.263
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Insert"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:INSERT INTO `TasksLog`  
+           (`JobId`,`TotalTime`,`RunResult`,`RunTime`,`EndTime`,`RunPars`,`ErrMessage`,`ErrStackTrace`,`CreateId`,`CreateBy`,`CreateTime`,`ModifyId`,`ModifyBy`,`ModifyTime`,`Id`)
+     VALUES
+           (@JobId,@TotalTime,@RunResult,@RunTime,@EndTime,@RunPars,@ErrMessage,@ErrStackTrace,@CreateId,@CreateBy,@CreateTime,@ModifyId,@ModifyBy,@ModifyTime,@Id) ; 
+[Pars]:
+[Name]:@JobId [Value]:1 [Type]:Int64    
+[Name]:@TotalTime [Value]:0.011 [Type]:Double    
+[Name]:@RunResult [Value]:True [Type]:Boolean    
+[Name]:@RunTime [Value]:2023/12/10 13:30:00 [Type]:DateTime    
+[Name]:@EndTime [Value]:2023/12/10 13:30:00 [Type]:DateTime    
+[Name]:@RunPars [Value]:1 [Type]:String    
+[Name]:@ErrMessage [Value]: [Type]:String    
+[Name]:@ErrStackTrace [Value]: [Type]:String    
+[Name]:@CreateId [Value]: [Type]:Int32    
+[Name]:@CreateBy [Value]: [Type]:String    
+[Name]:@CreateTime [Value]:2023/12/10 13:30:00 [Type]:DateTime    
+[Name]:@ModifyId [Value]: [Type]:Int32    
+[Name]:@ModifyBy [Value]: [Type]:String    
+[Name]:@ModifyTime [Value]:2023/12/10 13:30:00 [Type]:DateTime    
+[Name]:@Id [Value]:1733720698955894784 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:30:00.302
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:["TasksQz"]  Operate:["Update"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:UPDATE `TasksQz`  SET
+           `Name`=@Name,`JobGroup`=@JobGroup,`Cron`=@Cron,`AssemblyName`=@AssemblyName,`ClassName`=@ClassName,`Remark`=@Remark,`RunTimes`=@RunTimes,`BeginTime`=@BeginTime,`EndTime`=@EndTime,`TriggerType`=@TriggerType,`IntervalSecond`=@IntervalSecond,`CycleRunTimes`=@CycleRunTimes,`CycleHasRunTimes`=@CycleHasRunTimes,`IsStart`=@IsStart,`JobParams`=@JobParams,`IsDeleted`=@IsDeleted,`CreateTime`=@CreateTime  WHERE `Id`=@Id 
+[Pars]:
+[Name]:@Name [Value]:博客管理 [Type]:String    
+[Name]:@JobGroup [Value]:博客测试组 [Type]:String    
+[Name]:@Cron [Value]:0 */5 * * * ? [Type]:String    
+[Name]:@AssemblyName [Value]:Aspire.Core.Tasks [Type]:String    
+[Name]:@ClassName [Value]:Job_Aspires_Quartz [Type]:String    
+[Name]:@Remark [Value]:【2023-12-10 13:30:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-10 13:30:00】【执行成功】(耗时:0.011秒)<br>【2023-12-10 01:25:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-10 01:25:00】【执行成功】(耗时:0.008秒)<br>【2023-12-10 01:20:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-10 01:20:00】【执行成功】(耗时:0.013秒)<br>【2023-12-09 19:55:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:55:00】【执行成功】(耗时:0.01秒)<br>【2023-12-09 19:50:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:50:00】【执行成功】(耗时:0.007秒)<br>【2023-12-09 19:45:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:45:00】【执行成功】(耗时:0.011秒)<br>【2023-12-09 19:40:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:40:00】【执行成功】(耗时:0.007秒)<br>【2023-12-09 19:35:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:35:00】【执行成功】(耗时:0.009秒)<br>【2023-12-09 19:20:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:20:00】【执行成功】(耗时:0.01秒)<br>【2023-12-09 19:05:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:05:00】【执行成功】(耗时:0.007秒) [Type]:String    
+[Name]:@RunTimes [Value]:15 [Type]:Int32    
+[Name]:@BeginTime [Value]:2019/1/1 0:00:00 [Type]:DateTime    
+[Name]:@EndTime [Value]:2251/9/5 23:46:40 [Type]:DateTime    
+[Name]:@TriggerType [Value]:1 [Type]:Int32    
+[Name]:@IntervalSecond [Value]:0 [Type]:Int32    
+[Name]:@CycleRunTimes [Value]:0 [Type]:Int32    
+[Name]:@CycleHasRunTimes [Value]:0 [Type]:Int32    
+[Name]:@IsStart [Value]:True [Type]:Boolean    
+[Name]:@JobParams [Value]:1 [Type]:String    
+[Name]:@IsDeleted [Value]:False [Type]:Boolean    
+[Name]:@CreateTime [Value]:2019/1/1 0:00:00 [Type]:DateTime    
+[Name]:@Id [Value]:1 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:30:03.396
+LogLevel：Information
+Message：------------------ 
+ User:["Aspireadmin"]  Table:["SysUserInfo"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT `LoginName`,`LoginPWD`,`RealName`,`Status`,`DepartmentId`,`Remark`,`CreateTime`,`UpdateTime`,`CriticalModifyTime`,`LastErrorTime`,`ErrorCount`,`Name`,`Sex`,`Age`,`Birth`,`Address`,`Enable`,`IsDeleted`,`TenantId`,`Id` FROM `SysUserInfo`  WHERE `Id` = @InPara0    
+[Pars]:
+[Name]:@InPara0 [Value]:12 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:33:52.713
+LogLevel：Information
+Message：------------------ 
+ User:["Aspireadmin"]  Table:["SysUserInfo"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT `LoginName`,`LoginPWD`,`RealName`,`Status`,`DepartmentId`,`Remark`,`CreateTime`,`UpdateTime`,`CriticalModifyTime`,`LastErrorTime`,`ErrorCount`,`Name`,`Sex`,`Age`,`Birth`,`Address`,`Enable`,`IsDeleted`,`TenantId`,`Id` FROM `SysUserInfo`  WHERE `Id` = @InPara0    
+[Pars]:
+[Name]:@InPara0 [Value]:12 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:35:15.376
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:["AspireArticle"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT `bID`,`bsubmitter`,`btitle`,`bcategory`,`bcontent`,`btraffic`,`bcommentNum`,`bUpdateTime`,`bCreateTime`,`bRemark`,`IsDeleted` FROM `AspireArticle`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:35:18.951
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:["TasksQz"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT `Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`CycleRunTimes`,`CycleHasRunTimes`,`IsStart`,`JobParams`,`IsDeleted`,`CreateTime`,`Id` FROM `TasksQz`  WHERE `Id` = @InPara0    
+[Pars]:
+[Name]:@InPara0 [Value]:1 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:35:18.957
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Insert"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:INSERT INTO `TasksLog`  
+           (`JobId`,`TotalTime`,`RunResult`,`RunTime`,`EndTime`,`RunPars`,`ErrMessage`,`ErrStackTrace`,`CreateId`,`CreateBy`,`CreateTime`,`ModifyId`,`ModifyBy`,`ModifyTime`,`Id`)
+     VALUES
+           (@JobId,@TotalTime,@RunResult,@RunTime,@EndTime,@RunPars,@ErrMessage,@ErrStackTrace,@CreateId,@CreateBy,@CreateTime,@ModifyId,@ModifyBy,@ModifyTime,@Id) ; 
+[Pars]:
+[Name]:@JobId [Value]:1 [Type]:Int64    
+[Name]:@TotalTime [Value]:10.792 [Type]:Double    
+[Name]:@RunResult [Value]:True [Type]:Boolean    
+[Name]:@RunTime [Value]:2023/12/10 13:35:08 [Type]:DateTime    
+[Name]:@EndTime [Value]:2023/12/10 13:35:18 [Type]:DateTime    
+[Name]:@RunPars [Value]:1 [Type]:String    
+[Name]:@ErrMessage [Value]: [Type]:String    
+[Name]:@ErrStackTrace [Value]: [Type]:String    
+[Name]:@CreateId [Value]: [Type]:Int32    
+[Name]:@CreateBy [Value]: [Type]:String    
+[Name]:@CreateTime [Value]:2023/12/10 13:35:08 [Type]:DateTime    
+[Name]:@ModifyId [Value]: [Type]:Int32    
+[Name]:@ModifyBy [Value]: [Type]:String    
+[Name]:@ModifyTime [Value]:2023/12/10 13:35:08 [Type]:DateTime    
+[Name]:@Id [Value]:1733722035659608064 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:35:18.968
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:["TasksQz"]  Operate:["Update"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:UPDATE `TasksQz`  SET
+           `Name`=@Name,`JobGroup`=@JobGroup,`Cron`=@Cron,`AssemblyName`=@AssemblyName,`ClassName`=@ClassName,`Remark`=@Remark,`RunTimes`=@RunTimes,`BeginTime`=@BeginTime,`EndTime`=@EndTime,`TriggerType`=@TriggerType,`IntervalSecond`=@IntervalSecond,`CycleRunTimes`=@CycleRunTimes,`CycleHasRunTimes`=@CycleHasRunTimes,`IsStart`=@IsStart,`JobParams`=@JobParams,`IsDeleted`=@IsDeleted,`CreateTime`=@CreateTime  WHERE `Id`=@Id 
+[Pars]:
+[Name]:@Name [Value]:博客管理 [Type]:String    
+[Name]:@JobGroup [Value]:博客测试组 [Type]:String    
+[Name]:@Cron [Value]:0 */5 * * * ? [Type]:String    
+[Name]:@AssemblyName [Value]:Aspire.Core.Tasks [Type]:String    
+[Name]:@ClassName [Value]:Job_Aspires_Quartz [Type]:String    
+[Name]:@Remark [Value]:【2023-12-10 13:35:08】【执行开始】【Id：1，组别：博客测试组】，【2023-12-10 13:35:18】【执行成功】(耗时:10.792秒)<br>【2023-12-10 13:30:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-10 13:30:00】【执行成功】(耗时:0.011秒)<br>【2023-12-10 01:25:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-10 01:25:00】【执行成功】(耗时:0.008秒)<br>【2023-12-10 01:20:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-10 01:20:00】【执行成功】(耗时:0.013秒)<br>【2023-12-09 19:55:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:55:00】【执行成功】(耗时:0.01秒)<br>【2023-12-09 19:50:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:50:00】【执行成功】(耗时:0.007秒)<br>【2023-12-09 19:45:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:45:00】【执行成功】(耗时:0.011秒)<br>【2023-12-09 19:40:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:40:00】【执行成功】(耗时:0.007秒)<br>【2023-12-09 19:35:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:35:00】【执行成功】(耗时:0.009秒)<br>【2023-12-09 19:20:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:20:00】【执行成功】(耗时:0.01秒) [Type]:String    
+[Name]:@RunTimes [Value]:16 [Type]:Int32    
+[Name]:@BeginTime [Value]:2019/1/1 0:00:00 [Type]:DateTime    
+[Name]:@EndTime [Value]:2251/9/5 23:46:40 [Type]:DateTime    
+[Name]:@TriggerType [Value]:1 [Type]:Int32    
+[Name]:@IntervalSecond [Value]:0 [Type]:Int32    
+[Name]:@CycleRunTimes [Value]:0 [Type]:Int32    
+[Name]:@CycleHasRunTimes [Value]:0 [Type]:Int32    
+[Name]:@IsStart [Value]:True [Type]:Boolean    
+[Name]:@JobParams [Value]:1 [Type]:String    
+[Name]:@IsDeleted [Value]:False [Type]:Boolean    
+[Name]:@CreateTime [Value]:2019/1/1 0:00:00 [Type]:DateTime    
+[Name]:@Id [Value]:1 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:35:26.175
+LogLevel：Information
+Message：------------------ 
+ User:["Aspireadmin"]  Table:["SysUserInfo"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT `LoginName`,`LoginPWD`,`RealName`,`Status`,`DepartmentId`,`Remark`,`CreateTime`,`UpdateTime`,`CriticalModifyTime`,`LastErrorTime`,`ErrorCount`,`Name`,`Sex`,`Age`,`Birth`,`Address`,`Enable`,`IsDeleted`,`TenantId`,`Id` FROM `SysUserInfo`  WHERE `Id` = @InPara0    
+[Pars]:
+[Name]:@InPara0 [Value]:12 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:40:00.016
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:["AspireArticle"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT `bID`,`bsubmitter`,`btitle`,`bcategory`,`bcontent`,`btraffic`,`bcommentNum`,`bUpdateTime`,`bCreateTime`,`bRemark`,`IsDeleted` FROM `AspireArticle`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:40:00.021
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:["TasksQz"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT `Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`CycleRunTimes`,`CycleHasRunTimes`,`IsStart`,`JobParams`,`IsDeleted`,`CreateTime`,`Id` FROM `TasksQz`  WHERE `Id` = @InPara0    
+[Pars]:
+[Name]:@InPara0 [Value]:1 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:40:00.027
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Insert"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:INSERT INTO `TasksLog`  
+           (`JobId`,`TotalTime`,`RunResult`,`RunTime`,`EndTime`,`RunPars`,`ErrMessage`,`ErrStackTrace`,`CreateId`,`CreateBy`,`CreateTime`,`ModifyId`,`ModifyBy`,`ModifyTime`,`Id`)
+     VALUES
+           (@JobId,@TotalTime,@RunResult,@RunTime,@EndTime,@RunPars,@ErrMessage,@ErrStackTrace,@CreateId,@CreateBy,@CreateTime,@ModifyId,@ModifyBy,@ModifyTime,@Id) ; 
+[Pars]:
+[Name]:@JobId [Value]:1 [Type]:Int64    
+[Name]:@TotalTime [Value]:0.007 [Type]:Double    
+[Name]:@RunResult [Value]:True [Type]:Boolean    
+[Name]:@RunTime [Value]:2023/12/10 13:40:00 [Type]:DateTime    
+[Name]:@EndTime [Value]:2023/12/10 13:40:00 [Type]:DateTime    
+[Name]:@RunPars [Value]:1 [Type]:String    
+[Name]:@ErrMessage [Value]: [Type]:String    
+[Name]:@ErrStackTrace [Value]: [Type]:String    
+[Name]:@CreateId [Value]: [Type]:Int32    
+[Name]:@CreateBy [Value]: [Type]:String    
+[Name]:@CreateTime [Value]:2023/12/10 13:40:00 [Type]:DateTime    
+[Name]:@ModifyId [Value]: [Type]:Int32    
+[Name]:@ModifyBy [Value]: [Type]:String    
+[Name]:@ModifyTime [Value]:2023/12/10 13:40:00 [Type]:DateTime    
+[Name]:@Id [Value]:1733723214552633345 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:40:00.107
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:["TasksQz"]  Operate:["Update"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:UPDATE `TasksQz`  SET
+           `Name`=@Name,`JobGroup`=@JobGroup,`Cron`=@Cron,`AssemblyName`=@AssemblyName,`ClassName`=@ClassName,`Remark`=@Remark,`RunTimes`=@RunTimes,`BeginTime`=@BeginTime,`EndTime`=@EndTime,`TriggerType`=@TriggerType,`IntervalSecond`=@IntervalSecond,`CycleRunTimes`=@CycleRunTimes,`CycleHasRunTimes`=@CycleHasRunTimes,`IsStart`=@IsStart,`JobParams`=@JobParams,`IsDeleted`=@IsDeleted,`CreateTime`=@CreateTime  WHERE `Id`=@Id 
+[Pars]:
+[Name]:@Name [Value]:博客管理 [Type]:String    
+[Name]:@JobGroup [Value]:博客测试组 [Type]:String    
+[Name]:@Cron [Value]:0 */5 * * * ? [Type]:String    
+[Name]:@AssemblyName [Value]:Aspire.Core.Tasks [Type]:String    
+[Name]:@ClassName [Value]:Job_Aspires_Quartz [Type]:String    
+[Name]:@Remark [Value]:【2023-12-10 13:40:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-10 13:40:00】【执行成功】(耗时:0.007秒)<br>【2023-12-10 13:35:08】【执行开始】【Id：1，组别：博客测试组】，【2023-12-10 13:35:18】【执行成功】(耗时:10.792秒)<br>【2023-12-10 13:30:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-10 13:30:00】【执行成功】(耗时:0.011秒)<br>【2023-12-10 01:25:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-10 01:25:00】【执行成功】(耗时:0.008秒)<br>【2023-12-10 01:20:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-10 01:20:00】【执行成功】(耗时:0.013秒)<br>【2023-12-09 19:55:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:55:00】【执行成功】(耗时:0.01秒)<br>【2023-12-09 19:50:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:50:00】【执行成功】(耗时:0.007秒)<br>【2023-12-09 19:45:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:45:00】【执行成功】(耗时:0.011秒)<br>【2023-12-09 19:40:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:40:00】【执行成功】(耗时:0.007秒)<br>【2023-12-09 19:35:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:35:00】【执行成功】(耗时:0.009秒) [Type]:String    
+[Name]:@RunTimes [Value]:17 [Type]:Int32    
+[Name]:@BeginTime [Value]:2019/1/1 0:00:00 [Type]:DateTime    
+[Name]:@EndTime [Value]:2251/9/5 23:46:40 [Type]:DateTime    
+[Name]:@TriggerType [Value]:1 [Type]:Int32    
+[Name]:@IntervalSecond [Value]:0 [Type]:Int32    
+[Name]:@CycleRunTimes [Value]:0 [Type]:Int32    
+[Name]:@CycleHasRunTimes [Value]:0 [Type]:Int32    
+[Name]:@IsStart [Value]:True [Type]:Boolean    
+[Name]:@JobParams [Value]:1 [Type]:String    
+[Name]:@IsDeleted [Value]:False [Type]:Boolean    
+[Name]:@CreateTime [Value]:2019/1/1 0:00:00 [Type]:DateTime    
+[Name]:@Id [Value]:1 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:45:00.012
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:["AspireArticle"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT `bID`,`bsubmitter`,`btitle`,`bcategory`,`bcontent`,`btraffic`,`bcommentNum`,`bUpdateTime`,`bCreateTime`,`bRemark`,`IsDeleted` FROM `AspireArticle`  
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:45:00.017
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:["TasksQz"]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT `Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`CycleRunTimes`,`CycleHasRunTimes`,`IsStart`,`JobParams`,`IsDeleted`,`CreateTime`,`Id` FROM `TasksQz`  WHERE `Id` = @InPara0    
+[Pars]:
+[Name]:@InPara0 [Value]:1 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:45:00.023
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Insert"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:INSERT INTO `TasksLog`  
+           (`JobId`,`TotalTime`,`RunResult`,`RunTime`,`EndTime`,`RunPars`,`ErrMessage`,`ErrStackTrace`,`CreateId`,`CreateBy`,`CreateTime`,`ModifyId`,`ModifyBy`,`ModifyTime`,`Id`)
+     VALUES
+           (@JobId,@TotalTime,@RunResult,@RunTime,@EndTime,@RunPars,@ErrMessage,@ErrStackTrace,@CreateId,@CreateBy,@CreateTime,@ModifyId,@ModifyBy,@ModifyTime,@Id) ; 
+[Pars]:
+[Name]:@JobId [Value]:1 [Type]:Int64    
+[Name]:@TotalTime [Value]:0.008 [Type]:Double    
+[Name]:@RunResult [Value]:True [Type]:Boolean    
+[Name]:@RunTime [Value]:2023/12/10 13:45:00 [Type]:DateTime    
+[Name]:@EndTime [Value]:2023/12/10 13:45:00 [Type]:DateTime    
+[Name]:@RunPars [Value]:1 [Type]:String    
+[Name]:@ErrMessage [Value]: [Type]:String    
+[Name]:@ErrStackTrace [Value]: [Type]:String    
+[Name]:@CreateId [Value]: [Type]:Int32    
+[Name]:@CreateBy [Value]: [Type]:String    
+[Name]:@CreateTime [Value]:2023/12/10 13:45:00 [Type]:DateTime    
+[Name]:@ModifyId [Value]: [Type]:Int32    
+[Name]:@ModifyBy [Value]: [Type]:String    
+[Name]:@ModifyTime [Value]:2023/12/10 13:45:00 [Type]:DateTime    
+[Name]:@Id [Value]:1733724472827056129 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-10 13:45:00.036
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:["TasksQz"]  Operate:["Update"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:UPDATE `TasksQz`  SET
+           `Name`=@Name,`JobGroup`=@JobGroup,`Cron`=@Cron,`AssemblyName`=@AssemblyName,`ClassName`=@ClassName,`Remark`=@Remark,`RunTimes`=@RunTimes,`BeginTime`=@BeginTime,`EndTime`=@EndTime,`TriggerType`=@TriggerType,`IntervalSecond`=@IntervalSecond,`CycleRunTimes`=@CycleRunTimes,`CycleHasRunTimes`=@CycleHasRunTimes,`IsStart`=@IsStart,`JobParams`=@JobParams,`IsDeleted`=@IsDeleted,`CreateTime`=@CreateTime  WHERE `Id`=@Id 
+[Pars]:
+[Name]:@Name [Value]:博客管理 [Type]:String    
+[Name]:@JobGroup [Value]:博客测试组 [Type]:String    
+[Name]:@Cron [Value]:0 */5 * * * ? [Type]:String    
+[Name]:@AssemblyName [Value]:Aspire.Core.Tasks [Type]:String    
+[Name]:@ClassName [Value]:Job_Aspires_Quartz [Type]:String    
+[Name]:@Remark [Value]:【2023-12-10 13:45:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-10 13:45:00】【执行成功】(耗时:0.008秒)<br>【2023-12-10 13:40:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-10 13:40:00】【执行成功】(耗时:0.007秒)<br>【2023-12-10 13:35:08】【执行开始】【Id：1，组别：博客测试组】，【2023-12-10 13:35:18】【执行成功】(耗时:10.792秒)<br>【2023-12-10 13:30:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-10 13:30:00】【执行成功】(耗时:0.011秒)<br>【2023-12-10 01:25:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-10 01:25:00】【执行成功】(耗时:0.008秒)<br>【2023-12-10 01:20:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-10 01:20:00】【执行成功】(耗时:0.013秒)<br>【2023-12-09 19:55:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:55:00】【执行成功】(耗时:0.01秒)<br>【2023-12-09 19:50:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:50:00】【执行成功】(耗时:0.007秒)<br>【2023-12-09 19:45:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:45:00】【执行成功】(耗时:0.011秒)<br>【2023-12-09 19:40:00】【执行开始】【Id：1，组别：博客测试组】，【2023-12-09 19:40:00】【执行成功】(耗时:0.007秒) [Type]:String    
+[Name]:@RunTimes [Value]:18 [Type]:Int32    
+[Name]:@BeginTime [Value]:2019/1/1 0:00:00 [Type]:DateTime    
+[Name]:@EndTime [Value]:2251/9/5 23:46:40 [Type]:DateTime    
+[Name]:@TriggerType [Value]:1 [Type]:Int32    
+[Name]:@IntervalSecond [Value]:0 [Type]:Int32    
+[Name]:@CycleRunTimes [Value]:0 [Type]:Int32    
+[Name]:@CycleHasRunTimes [Value]:0 [Type]:Int32    
+[Name]:@IsStart [Value]:True [Type]:Boolean    
+[Name]:@JobParams [Value]:1 [Type]:String    
+[Name]:@IsDeleted [Value]:False [Type]:Boolean    
+[Name]:@CreateTime [Value]:2019/1/1 0:00:00 [Type]:DateTime    
+[Name]:@Id [Value]:1 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\build\common.targets" />
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<OutputPath>..\Aspire.Core\bin\Debug\</OutputPath>
+	</PropertyGroup>
+	
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<OutputPath>..\Aspire.Core\bin\Release\</OutputPath>
+	</PropertyGroup>
+	 
+
+	<ItemGroup>
+		<ProjectReference Include="..\Aspire.Core.IServices\Aspire.Core.IServices.csproj" />
+		<ProjectReference Include="..\Aspire.Core.Repository\Aspire.Core.Repository.csproj" />
+	</ItemGroup>
+
+</Project>

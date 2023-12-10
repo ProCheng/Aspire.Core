@@ -1,0 +1,623 @@
+
+Date：2023-12-06 17:54:05.431
+LogLevel：Information
+Message：Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 17:54:05.499
+LogLevel：Information
+Message：Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 17:54:05.500
+LogLevel：Information
+Message：Quartz Scheduler created
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 17:54:05.507
+LogLevel：Information
+Message：RAMJobStore initialized.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 17:54:05.508
+LogLevel：Information
+Message：Quartz Scheduler 3.7.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 17:54:05.509
+LogLevel：Information
+Message：Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 17:54:05.509
+LogLevel：Information
+Message：Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 17:54:05.548
+LogLevel：Information
+Message：Start Initialization Db Seed Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 17:54:06.449
+LogLevel：Error
+Message：Error occured seeding the Database.
+System.Exception: 1、若是Mysql,查看常见问题:https://github.com/anjoy8/Aspire.Core/issues/148#issue-776281770 
+2、若是Oracle,查看常见问题:https://github.com/anjoy8/Aspire.Core/issues/148#issuecomment-752340231 
+3、其他错误：There was an error deserializing the object of type System.Collections.Generic.List`1[[Aspire.Core.Model.Models.AspireArticle, Aspire.Core.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]. Encountered unexpected character 'ä'.
+   at Aspire.Core.Common.Seed.DBSeed.SeedAsync(MyContext myContext, String WebRootPath) in C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core.Common\Seed\DBSeed.cs:line 353
+   at Aspire.Core.Extensions.SeedDataHostedService.DoWork() in C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core.Extensions\HostedService\SeedDataHostedService.cs:line 40
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 17:54:06.473
+LogLevel：Error
+Message：Hosting failed to start
+System.Exception: 1、若是Mysql,查看常见问题:https://github.com/anjoy8/Aspire.Core/issues/148#issue-776281770 
+2、若是Oracle,查看常见问题:https://github.com/anjoy8/Aspire.Core/issues/148#issuecomment-752340231 
+3、其他错误：There was an error deserializing the object of type System.Collections.Generic.List`1[[Aspire.Core.Model.Models.AspireArticle, Aspire.Core.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]. Encountered unexpected character 'ä'.
+   at Aspire.Core.Common.Seed.DBSeed.SeedAsync(MyContext myContext, String WebRootPath) in C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core.Common\Seed\DBSeed.cs:line 353
+   at Aspire.Core.Extensions.SeedDataHostedService.DoWork() in C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core.Extensions\HostedService\SeedDataHostedService.cs:line 40
+   at Aspire.Core.Extensions.SeedDataHostedService.StartAsync(CancellationToken cancellationToken) in C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core.Extensions\HostedService\SeedDataHostedService.cs:line 31
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 17:55:01.413
+LogLevel：Information
+Message：Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 17:55:01.442
+LogLevel：Information
+Message：Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 17:55:01.443
+LogLevel：Information
+Message：Quartz Scheduler created
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 17:55:01.444
+LogLevel：Information
+Message：RAMJobStore initialized.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 17:55:01.450
+LogLevel：Information
+Message：Quartz Scheduler 3.7.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 17:55:01.451
+LogLevel：Information
+Message：Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 17:55:01.452
+LogLevel：Information
+Message：Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 17:55:01.487
+LogLevel：Information
+Message：Start Initialization Db Seed Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 17:55:01.828
+LogLevel：Error
+Message：Error occured seeding the Database.
+System.Exception: 1、若是Mysql,查看常见问题:https://github.com/anjoy8/Aspire.Core/issues/148#issue-776281770 
+2、若是Oracle,查看常见问题:https://github.com/anjoy8/Aspire.Core/issues/148#issuecomment-752340231 
+3、其他错误：There was an error deserializing the object of type System.Collections.Generic.List`1[[Aspire.Core.Model.Models.AspireArticle, Aspire.Core.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]. Encountered unexpected character 'ä'.
+   at Aspire.Core.Common.Seed.DBSeed.SeedAsync(MyContext myContext, String WebRootPath) in C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core.Common\Seed\DBSeed.cs:line 353
+   at Aspire.Core.Extensions.SeedDataHostedService.DoWork() in C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core.Extensions\HostedService\SeedDataHostedService.cs:line 40
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 17:55:01.849
+LogLevel：Error
+Message：Hosting failed to start
+System.Exception: 1、若是Mysql,查看常见问题:https://github.com/anjoy8/Aspire.Core/issues/148#issue-776281770 
+2、若是Oracle,查看常见问题:https://github.com/anjoy8/Aspire.Core/issues/148#issuecomment-752340231 
+3、其他错误：There was an error deserializing the object of type System.Collections.Generic.List`1[[Aspire.Core.Model.Models.AspireArticle, Aspire.Core.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]. Encountered unexpected character 'ä'.
+   at Aspire.Core.Common.Seed.DBSeed.SeedAsync(MyContext myContext, String WebRootPath) in C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core.Common\Seed\DBSeed.cs:line 353
+   at Aspire.Core.Extensions.SeedDataHostedService.DoWork() in C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core.Extensions\HostedService\SeedDataHostedService.cs:line 40
+   at Aspire.Core.Extensions.SeedDataHostedService.StartAsync(CancellationToken cancellationToken) in C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core.Extensions\HostedService\SeedDataHostedService.cs:line 31
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 17:58:00.288
+LogLevel：Information
+Message：Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 17:58:00.314
+LogLevel：Information
+Message：Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 17:58:00.315
+LogLevel：Information
+Message：Quartz Scheduler created
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 17:58:00.316
+LogLevel：Information
+Message：RAMJobStore initialized.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 17:58:00.321
+LogLevel：Information
+Message：Quartz Scheduler 3.7.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 17:58:00.321
+LogLevel：Information
+Message：Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 17:58:00.322
+LogLevel：Information
+Message：Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 17:58:00.352
+LogLevel：Information
+Message：Start Initialization Db Seed Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 17:58:00.718
+LogLevel：Error
+Message：Error occured seeding the Database.
+System.Exception: 1、若是Mysql,查看常见问题:https://github.com/anjoy8/Aspire.Core/issues/148#issue-776281770 
+2、若是Oracle,查看常见问题:https://github.com/anjoy8/Aspire.Core/issues/148#issuecomment-752340231 
+3、其他错误：There was an error deserializing the object of type System.Collections.Generic.List`1[[Aspire.Core.Model.Models.AspireArticle, Aspire.Core.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]. Encountered unexpected character 'ä'.
+   at Aspire.Core.Common.Seed.DBSeed.SeedAsync(MyContext myContext, String WebRootPath) in C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core.Common\Seed\DBSeed.cs:line 353
+   at Aspire.Core.Extensions.SeedDataHostedService.DoWork() in C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core.Extensions\HostedService\SeedDataHostedService.cs:line 40
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 17:58:00.742
+LogLevel：Error
+Message：Hosting failed to start
+System.Exception: 1、若是Mysql,查看常见问题:https://github.com/anjoy8/Aspire.Core/issues/148#issue-776281770 
+2、若是Oracle,查看常见问题:https://github.com/anjoy8/Aspire.Core/issues/148#issuecomment-752340231 
+3、其他错误：There was an error deserializing the object of type System.Collections.Generic.List`1[[Aspire.Core.Model.Models.AspireArticle, Aspire.Core.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]. Encountered unexpected character 'ä'.
+   at Aspire.Core.Common.Seed.DBSeed.SeedAsync(MyContext myContext, String WebRootPath) in C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core.Common\Seed\DBSeed.cs:line 353
+   at Aspire.Core.Extensions.SeedDataHostedService.DoWork() in C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core.Extensions\HostedService\SeedDataHostedService.cs:line 40
+   at Aspire.Core.Extensions.SeedDataHostedService.StartAsync(CancellationToken cancellationToken) in C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core.Extensions\HostedService\SeedDataHostedService.cs:line 31
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:02:42.322
+LogLevel：Information
+Message：Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:02:42.380
+LogLevel：Information
+Message：Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:02:42.381
+LogLevel：Information
+Message：Quartz Scheduler created
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:02:42.386
+LogLevel：Information
+Message：RAMJobStore initialized.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:02:42.387
+LogLevel：Information
+Message：Quartz Scheduler 3.7.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:02:42.387
+LogLevel：Information
+Message：Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:02:42.388
+LogLevel：Information
+Message：Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:02:42.420
+LogLevel：Information
+Message：Start Initialization Db Seed Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:02:42.864
+LogLevel：Error
+Message：Error occured seeding the Database.
+System.Exception: 1、若是Mysql,查看常见问题:https://github.com/anjoy8/Aspire.Core/issues/148#issue-776281770 
+2、若是Oracle,查看常见问题:https://github.com/anjoy8/Aspire.Core/issues/148#issuecomment-752340231 
+3、其他错误：There was an error deserializing the object of type System.Collections.Generic.List`1[[Aspire.Core.Model.Models.AspireArticle, Aspire.Core.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]. Encountered unexpected character 'ä'.
+   at Aspire.Core.Common.Seed.DBSeed.SeedAsync(MyContext myContext, String WebRootPath) in C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core.Common\Seed\DBSeed.cs:line 353
+   at Aspire.Core.Extensions.SeedDataHostedService.DoWork() in C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core.Extensions\HostedService\SeedDataHostedService.cs:line 37
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:02:42.886
+LogLevel：Error
+Message：Hosting failed to start
+System.Exception: 1、若是Mysql,查看常见问题:https://github.com/anjoy8/Aspire.Core/issues/148#issue-776281770 
+2、若是Oracle,查看常见问题:https://github.com/anjoy8/Aspire.Core/issues/148#issuecomment-752340231 
+3、其他错误：There was an error deserializing the object of type System.Collections.Generic.List`1[[Aspire.Core.Model.Models.AspireArticle, Aspire.Core.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]. Encountered unexpected character 'ä'.
+   at Aspire.Core.Common.Seed.DBSeed.SeedAsync(MyContext myContext, String WebRootPath) in C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core.Common\Seed\DBSeed.cs:line 353
+   at Aspire.Core.Extensions.SeedDataHostedService.DoWork() in C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core.Extensions\HostedService\SeedDataHostedService.cs:line 37
+   at Aspire.Core.Extensions.SeedDataHostedService.StartAsync(CancellationToken cancellationToken) in C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core.Extensions\HostedService\SeedDataHostedService.cs:line 28
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:03:08.986
+LogLevel：Information
+Message：Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:03:09.012
+LogLevel：Information
+Message：Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:03:09.013
+LogLevel：Information
+Message：Quartz Scheduler created
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:03:09.014
+LogLevel：Information
+Message：RAMJobStore initialized.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:03:09.015
+LogLevel：Information
+Message：Quartz Scheduler 3.7.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:03:09.020
+LogLevel：Information
+Message：Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:03:09.021
+LogLevel：Information
+Message：Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:03:09.049
+LogLevel：Information
+Message：Start Initialization Db Seed Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:03:09.451
+LogLevel：Error
+Message：Error occured seeding the Database.
+System.Exception: 1、若是Mysql,查看常见问题:https://github.com/anjoy8/Aspire.Core/issues/148#issue-776281770 
+2、若是Oracle,查看常见问题:https://github.com/anjoy8/Aspire.Core/issues/148#issuecomment-752340231 
+3、其他错误：There was an error deserializing the object of type System.Collections.Generic.List`1[[Aspire.Core.Model.Models.AspireArticle, Aspire.Core.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]. Encountered unexpected character 'ä'.
+   at Aspire.Core.Common.Seed.DBSeed.SeedAsync(MyContext myContext, String WebRootPath) in C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core.Common\Seed\DBSeed.cs:line 353
+   at Aspire.Core.Extensions.SeedDataHostedService.DoWork() in C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core.Extensions\HostedService\SeedDataHostedService.cs:line 37
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:03:09.479
+LogLevel：Error
+Message：Hosting failed to start
+System.Exception: 1、若是Mysql,查看常见问题:https://github.com/anjoy8/Aspire.Core/issues/148#issue-776281770 
+2、若是Oracle,查看常见问题:https://github.com/anjoy8/Aspire.Core/issues/148#issuecomment-752340231 
+3、其他错误：There was an error deserializing the object of type System.Collections.Generic.List`1[[Aspire.Core.Model.Models.AspireArticle, Aspire.Core.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]. Encountered unexpected character 'ä'.
+   at Aspire.Core.Common.Seed.DBSeed.SeedAsync(MyContext myContext, String WebRootPath) in C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core.Common\Seed\DBSeed.cs:line 353
+   at Aspire.Core.Extensions.SeedDataHostedService.DoWork() in C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core.Extensions\HostedService\SeedDataHostedService.cs:line 37
+   at Aspire.Core.Extensions.SeedDataHostedService.StartAsync(CancellationToken cancellationToken) in C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core.Extensions\HostedService\SeedDataHostedService.cs:line 28
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:04:13.836
+LogLevel：Information
+Message：Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:04:13.861
+LogLevel：Information
+Message：Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:04:13.862
+LogLevel：Information
+Message：Quartz Scheduler created
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:04:13.862
+LogLevel：Information
+Message：RAMJobStore initialized.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:04:13.863
+LogLevel：Information
+Message：Quartz Scheduler 3.7.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:04:13.867
+LogLevel：Information
+Message：Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:04:13.868
+LogLevel：Information
+Message：Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:04:13.900
+LogLevel：Information
+Message：Start Initialization Db Seed Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:05:04.909
+LogLevel：Information
+Message：Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:05:04.935
+LogLevel：Information
+Message：Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:05:04.936
+LogLevel：Information
+Message：Quartz Scheduler created
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:05:04.936
+LogLevel：Information
+Message：RAMJobStore initialized.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:05:04.942
+LogLevel：Information
+Message：Quartz Scheduler 3.7.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:05:04.942
+LogLevel：Information
+Message：Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:05:04.943
+LogLevel：Information
+Message：Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:05:04.971
+LogLevel：Information
+Message：Start Initialization Db Seed Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:03.018
+LogLevel：Information
+Message：Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:03.066
+LogLevel：Information
+Message：Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:03.068
+LogLevel：Information
+Message：Quartz Scheduler created
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:03.070
+LogLevel：Information
+Message：RAMJobStore initialized.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:03.080
+LogLevel：Information
+Message：Quartz Scheduler 3.7.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:03.082
+LogLevel：Information
+Message：Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:03.083
+LogLevel：Information
+Message：Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:03.135
+LogLevel：Information
+Message：Start Initialization Db Seed Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:04.252
+LogLevel：Information
+Message：Start QuartzJob Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:04.272
+LogLevel：Information
+Message：JobFactory set to: Aspire.Core.Tasks.JobFactory
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:04.278
+LogLevel：Information
+Message：Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:04.301
+LogLevel：Information
+Message：Start Consul Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:04.303
+LogLevel：Information
+Message：Start EventBus Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:04.484
+LogLevel：Information
+Message：Now listening on: "http://[::]:9291"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:04.485
+LogLevel：Information
+Message：Application started. Press Ctrl+C to shut down.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:04.486
+LogLevel：Information
+Message：Hosting environment: "Development"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:04.487
+LogLevel：Information
+Message：Content root path: "C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:18.319
+LogLevel：Information
+Message：HTTP "GET" "/favicon.ico" QueryString:"" Body:""  responded 404 in 62.7959 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:24.198
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:24.226
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-06 18:08:24","Date":"2023-12-06","Week":"周三"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:24.786
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"  responded 200 in 554.5780 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:24.788
+LogLevel：Information
+Message：{"result":false}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:24.793
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-06 18:08:24","OPTime":"587ms","RequestMethod":"POST","RequestData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:27.392
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:27.413
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-06 18:08:27","Date":"2023-12-06","Week":"周三"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:27.433
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"  responded 200 in 17.4881 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:27.435
+LogLevel：Information
+Message：{"result":false}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:27.436
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-06 18:08:27","OPTime":"42ms","RequestMethod":"POST","RequestData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:40.888
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Blogadmin\",\"pwd\":\"Blogadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:40.908
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-06 18:08:40","Date":"2023-12-06","Week":"周三"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:40.919
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Blogadmin\",\"pwd\":\"Blogadmin\"}"  responded 200 in 9.4815 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:40.921
+LogLevel：Information
+Message：{"result":false}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:40.923
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-06 18:08:40","OPTime":"32ms","RequestMethod":"POST","RequestData":"{\"name\":\"Blogadmin\",\"pwd\":\"Blogadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:43.167
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Blogadmin\",\"pwd\":\"Blogadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:43.186
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-06 18:08:43","Date":"2023-12-06","Week":"周三"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:43.202
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Blogadmin\",\"pwd\":\"Blogadmin\"}"  responded 200 in 14.0615 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:43.205
+LogLevel：Information
+Message：{"result":false}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:43.207
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-06 18:08:43","OPTime":"37ms","RequestMethod":"POST","RequestData":"{\"name\":\"Blogadmin\",\"pwd\":\"Blogadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:54.761
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Blogadmin\",\"pwd\":\"Blogadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:54.779
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-06 18:08:54","Date":"2023-12-06","Week":"周三"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:54.790
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Blogadmin\",\"pwd\":\"Blogadmin\"}"  responded 200 in 8.6042 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:54.794
+LogLevel：Information
+Message：{"result":false}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:08:54.796
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-06 18:08:54","OPTime":"32ms","RequestMethod":"POST","RequestData":"{\"name\":\"Blogadmin\",\"pwd\":\"Blogadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:09:01.745
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Blogadmin\",\"pwd\":\"Blogadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:09:01.763
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-06 18:09:01","Date":"2023-12-06","Week":"周三"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:09:01.776
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Blogadmin\",\"pwd\":\"Blogadmin\"}"  responded 200 in 9.6369 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:09:01.779
+LogLevel：Information
+Message：{"result":false}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:09:01.781
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-06 18:09:01","OPTime":"34ms","RequestMethod":"POST","RequestData":"{\"name\":\"Blogadmin\",\"pwd\":\"Blogadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:09:29.595
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Blogadmin\",\"pwd\":\"Blogadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:09:29.614
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-06 18:09:29","Date":"2023-12-06","Week":"周三"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:09:54.285
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Blogadmin\",\"pwd\":\"Blogadmin\"}"  responded 200 in 24668.3778 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:09:54.290
+LogLevel：Information
+Message：{"result":false}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:09:54.293
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-06 18:09:29","OPTime":"24695ms","RequestMethod":"POST","RequestData":"{\"name\":\"Blogadmin\",\"pwd\":\"Blogadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:09:57.049
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Blogadmin\",\"pwd\":\"Blogadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:09:57.069
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-06 18:09:57","Date":"2023-12-06","Week":"周三"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:10:26.792
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Blogadmin\",\"pwd\":\"Blogadmin\"}"  responded 200 in 29720.4689 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:10:26.796
+LogLevel：Information
+Message：{"result":false}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:10:26.798
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-06 18:09:57","OPTime":"29747ms","RequestMethod":"POST","RequestData":"{\"name\":\"Blogadmin\",\"pwd\":\"Blogadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:10:35.907
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Blogadmin\",\"pwd\":\"Blogadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:10:35.929
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-06 18:10:35","Date":"2023-12-06","Week":"周三"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:11:07.775
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Blogadmin\",\"pwd\":\"Blogadmin\"}"  responded 200 in 31843.7962 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:11:07.810
+LogLevel：Information
+Message：{"result":false}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:11:07.812
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-06 18:10:35","OPTime":"31902ms","RequestMethod":"POST","RequestData":"{\"name\":\"Blogadmin\",\"pwd\":\"Blogadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:11:10.790
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Blogadmin\",\"pwd\":\"Blogadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:11:10.834
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-06 18:11:10","Date":"2023-12-06","Week":"周三"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:11:15.615
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Blogadmin\",\"pwd\":\"Blogadmin\"}"  responded 200 in 4778.3016 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:11:15.618
+LogLevel：Information
+Message：{"result":false}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:11:15.620
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-06 18:11:10","OPTime":"4827ms","RequestMethod":"POST","RequestData":"{\"name\":\"Blogadmin\",\"pwd\":\"Blogadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:11:18.433
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Blogadmin\",\"pwd\":\"Blogadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:11:18.450
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-06 18:11:18","Date":"2023-12-06","Week":"周三"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:11:57.127
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Blogadmin\",\"pwd\":\"Blogadmin\"}"  responded 200 in 38675.8831 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:11:57.129
+LogLevel：Information
+Message：{"result":false}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-06 18:11:57.131
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-06 18:11:18","OPTime":"38695ms","RequestMethod":"POST","RequestData":"{\"name\":\"Blogadmin\",\"pwd\":\"Blogadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------

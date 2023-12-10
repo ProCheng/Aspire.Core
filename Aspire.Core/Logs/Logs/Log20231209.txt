@@ -1,0 +1,2181 @@
+
+Date：2023-12-09 17:03:09.735
+LogLevel：Information
+Message：Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:03:09.774
+LogLevel：Information
+Message：Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:03:09.775
+LogLevel：Information
+Message：Quartz Scheduler created
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:03:09.776
+LogLevel：Information
+Message：RAMJobStore initialized.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:03:09.782
+LogLevel：Information
+Message：Quartz Scheduler 3.7.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:03:09.783
+LogLevel：Information
+Message：Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:03:09.784
+LogLevel：Information
+Message：Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:03:09.824
+LogLevel：Information
+Message：Start Initialization Db Seed Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:03:10.505
+LogLevel：Information
+Message：Start QuartzJob Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:03:10.528
+LogLevel：Information
+Message：JobFactory set to: Aspire.Core.Tasks.JobFactory
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:03:10.532
+LogLevel：Information
+Message：Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:03:10.555
+LogLevel：Information
+Message：Start Consul Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:03:10.557
+LogLevel：Information
+Message：Start EventBus Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:03:10.730
+LogLevel：Information
+Message：Now listening on: "http://[::]:9291"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:03:10.731
+LogLevel：Information
+Message：Application started. Press Ctrl+C to shut down.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:03:10.732
+LogLevel：Information
+Message：Hosting environment: "Development"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:03:10.732
+LogLevel：Information
+Message：Content root path: "C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:03:14.585
+LogLevel：Information
+Message：HTTP "GET" "/favicon.ico" QueryString:"" Body:""  responded 404 in 61.5558 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:03:18.062
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:03:18.112
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-09 17:03:18","Date":"2023-12-09","Week":"周六"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:03:19.257
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"  responded 200 in 1141.3276 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:03:19.260
+LogLevel：Information
+Message：{"result":true}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:03:19.264
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-09 17:03:18","OPTime":"1195ms","RequestMethod":"POST","RequestData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:03:19.359
+LogLevel：Information
+Message：HTTP "GET" "/mini-profiler-resources/includes.min.js" QueryString:"?v=4.2.22+4563a9e1ab" Body:""  responded 404 in 5.2273 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:03:22.618
+LogLevel：Information
+Message：HTTP "GET" "/mini-profiler-resources/includes.min.js" QueryString:"?v=4.2.22+4563a9e1ab" Body:""  responded 404 in 0.2133 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:01.115
+LogLevel：Information
+Message：Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:01.140
+LogLevel：Information
+Message：Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:01.141
+LogLevel：Information
+Message：Quartz Scheduler created
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:01.143
+LogLevel：Information
+Message：RAMJobStore initialized.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:01.148
+LogLevel：Information
+Message：Quartz Scheduler 3.7.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:01.148
+LogLevel：Information
+Message：Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:01.149
+LogLevel：Information
+Message：Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:01.209
+LogLevel：Debug
+Message：failover switch is not found, "00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:01.216
+LogLevel：Information
+Message：start up udp server....., port: 55936
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:01.242
+LogLevel：Information
+Message：Start Initialization Db Seed Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:01.815
+LogLevel：Information
+Message：Start QuartzJob Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:01.839
+LogLevel：Information
+Message：JobFactory set to: Aspire.Core.Tasks.JobFactory
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:01.843
+LogLevel：Information
+Message：Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:01.868
+LogLevel：Information
+Message：Start Consul Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:01.872
+LogLevel：Information
+Message：Start EventBus Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:01.953
+LogLevel：Information
+Message：["fixed-localhost_8848-public"] [subscribe] "Aspire.Core.Api.json+DEFAULT_GROUP+public"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:02.101
+LogLevel：Information
+Message：Now listening on: "http://[::]:9291"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:02.102
+LogLevel：Information
+Message：Application started. Press Ctrl+C to shut down.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:02.103
+LogLevel：Information
+Message：Hosting environment: "Development"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:02.103
+LogLevel：Information
+Message：Content root path: "C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:06.043
+LogLevel：Error
+Message：[NA] failed to request
+System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.CallServer(String api, Dictionary`2 paramters, Dictionary`2 body, String curServer, HttpMethod method)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:06.052
+LogLevel：Debug
+Message：request "http://localhost:8848" failed.
+Nacos.V2.Exceptions.NacosException: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.CallServer(String api, Dictionary`2 paramters, Dictionary`2 body, String curServer, HttpMethod method)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.ReqApi(String url, Dictionary`2 paramters, Dictionary`2 body, List`1 servers, HttpMethod method)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:06.108
+LogLevel：Error
+Message：[NACOS Exception "POST"] currentServerAddr: "http://localhost:8848"
+System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Nacos.V2.Config.Http.ServerHttpAgent.HttpRequest(String path, Dictionary`2 headers, Dictionary`2 paramValues, String encoding, Int64 readTimeoutMs, HttpMethod method)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:06.212
+LogLevel：Debug
+Message：failover switch is not found, "00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:10.148
+LogLevel：Error
+Message：[NA] failed to request
+System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.CallServer(String api, Dictionary`2 paramters, Dictionary`2 body, String curServer, HttpMethod method)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:10.160
+LogLevel：Debug
+Message：request "http://localhost:8848" failed.
+Nacos.V2.Exceptions.NacosException: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.CallServer(String api, Dictionary`2 paramters, Dictionary`2 body, String curServer, HttpMethod method)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.ReqApi(String url, Dictionary`2 paramters, Dictionary`2 body, List`1 servers, HttpMethod method)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:10.193
+LogLevel：Error
+Message：[NACOS Exception "POST"] currentServerAddr: "http://localhost:8848"
+System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Nacos.V2.Config.Http.ServerHttpAgent.HttpRequest(String path, Dictionary`2 headers, Dictionary`2 paramValues, String encoding, Int64 readTimeoutMs, HttpMethod method)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:11.200
+LogLevel：Debug
+Message：failover switch is not found, "00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:14.257
+LogLevel：Error
+Message：[NA] failed to request
+System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.CallServer(String api, Dictionary`2 paramters, Dictionary`2 body, String curServer, HttpMethod method)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:14.267
+LogLevel：Debug
+Message：request "http://localhost:8848" failed.
+Nacos.V2.Exceptions.NacosException: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.CallServer(String api, Dictionary`2 paramters, Dictionary`2 body, String curServer, HttpMethod method)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.ReqApi(String url, Dictionary`2 paramters, Dictionary`2 body, List`1 servers, HttpMethod method)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:14.304
+LogLevel：Error
+Message：[NACOS Exception "POST"] currentServerAddr: "http://localhost:8848"
+System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Nacos.V2.Config.Http.ServerHttpAgent.HttpRequest(String path, Dictionary`2 headers, Dictionary`2 paramValues, String encoding, Int64 readTimeoutMs, HttpMethod method)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:16.213
+LogLevel：Debug
+Message：failover switch is not found, "00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:18.352
+LogLevel：Error
+Message：[NA] failed to request
+System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.CallServer(String api, Dictionary`2 paramters, Dictionary`2 body, String curServer, HttpMethod method)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:18.366
+LogLevel：Debug
+Message：request "http://localhost:8848" failed.
+Nacos.V2.Exceptions.NacosException: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.CallServer(String api, Dictionary`2 paramters, Dictionary`2 body, String curServer, HttpMethod method)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.ReqApi(String url, Dictionary`2 paramters, Dictionary`2 body, List`1 servers, HttpMethod method)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:18.368
+LogLevel：Error
+Message：request: "/nacos/v1/ns/instance/list" failed, servers: ["http://localhost:8848"], code: 500, msg: "由于目标计算机积极拒绝，无法连接。 (localhost:8848)"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:18.426
+LogLevel：Error
+Message：BackgroundService failed
+Nacos.V2.Exceptions.NacosException: failed to req API: /nacos/v1/ns/instance/list after all servers(System.Collections.Generic.List`1[System.String]) tried: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.ReqApi(String url, Dictionary`2 paramters, Dictionary`2 body, List`1 servers, HttpMethod method)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.ReqApi(String url, Dictionary`2 paramters, Dictionary`2 body, HttpMethod method)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.ReqApi(String url, Dictionary`2 paramters, HttpMethod method)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.QueryInstancesOfService(String serviceName, String groupName, String clusters, Int32 udpPort, Boolean healthyOnly)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.Subscribe(String serviceName, String groupName, String clusters)
+   at Nacos.V2.Naming.Remote.NamingClientProxyDelegate.Subscribe(String serviceName, String groupName, String clusters)
+   at Nacos.V2.Naming.NacosNamingService.Subscribe(String serviceName, String groupName, List`1 clusters, IEventListener listener)
+   at Nacos.V2.Naming.NacosNamingService.Subscribe(String serviceName, String groupName, IEventListener listener)
+   at Aspire.Core.Extensions.NacosConfig.NacosListenNamingTask.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core.Extensions\NacosConfig\NacosListenNamingTask.cs:line 39
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:18.427
+LogLevel：Error
+Message：[NACOS Exception "POST"] currentServerAddr: "http://localhost:8848"
+System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Nacos.V2.Config.Http.ServerHttpAgent.HttpRequest(String path, Dictionary`2 headers, Dictionary`2 paramValues, String encoding, Int64 readTimeoutMs, HttpMethod method)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:18.434
+LogLevel：Fatal
+Message：The HostOptions.BackgroundServiceExceptionBehavior is configured to StopHost. A BackgroundService has thrown an unhandled exception, and the IHost instance is stopping. To avoid this behavior, configure this to Ignore; however the BackgroundService will not be restarted.
+Nacos.V2.Exceptions.NacosException: failed to req API: /nacos/v1/ns/instance/list after all servers(System.Collections.Generic.List`1[System.String]) tried: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.ReqApi(String url, Dictionary`2 paramters, Dictionary`2 body, List`1 servers, HttpMethod method)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.ReqApi(String url, Dictionary`2 paramters, Dictionary`2 body, HttpMethod method)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.ReqApi(String url, Dictionary`2 paramters, HttpMethod method)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.QueryInstancesOfService(String serviceName, String groupName, String clusters, Int32 udpPort, Boolean healthyOnly)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.Subscribe(String serviceName, String groupName, String clusters)
+   at Nacos.V2.Naming.Remote.NamingClientProxyDelegate.Subscribe(String serviceName, String groupName, String clusters)
+   at Nacos.V2.Naming.NacosNamingService.Subscribe(String serviceName, String groupName, List`1 clusters, IEventListener listener)
+   at Nacos.V2.Naming.NacosNamingService.Subscribe(String serviceName, String groupName, IEventListener listener)
+   at Aspire.Core.Extensions.NacosConfig.NacosListenNamingTask.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core.Extensions\NacosConfig\NacosListenNamingTask.cs:line 39
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:18.440
+LogLevel：Error
+Message：["fixed-localhost_8848-public"] [check-update] get changed dataId exception
+System.Exception: [NACOS HTTP-POST] The maximum number of tolerable server reconnection errors has been reached
+   at Nacos.V2.Config.Http.ServerHttpAgent.HttpRequest(String path, Dictionary`2 headers, Dictionary`2 paramValues, String encoding, Int64 readTimeoutMs, HttpMethod method)
+   at Nacos.V2.Config.Http.ServerHttpAgent.HttpPost(String path, Dictionary`2 headers, Dictionary`2 paramValues, String encoding, Int64 readTimeoutMs)
+   at Nacos.V2.Config.Impl.ConfigHttpTransportClient.CheckUpdateConfigStr(String probeUpdateString, Boolean isInitializingCacheList)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:18.444
+LogLevel：Information
+Message：Application is shutting down...
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:18.447
+LogLevel：Error
+Message：longPolling error
+System.Exception: [NACOS HTTP-POST] The maximum number of tolerable server reconnection errors has been reached
+   at Nacos.V2.Config.Http.ServerHttpAgent.HttpRequest(String path, Dictionary`2 headers, Dictionary`2 paramValues, String encoding, Int64 readTimeoutMs, HttpMethod method)
+   at Nacos.V2.Config.Http.ServerHttpAgent.HttpPost(String path, Dictionary`2 headers, Dictionary`2 paramValues, String encoding, Int64 readTimeoutMs)
+   at Nacos.V2.Config.Impl.ConfigHttpTransportClient.CheckUpdateConfigStr(String probeUpdateString, Boolean isInitializingCacheList)
+   at Nacos.V2.Config.Impl.ConfigHttpTransportClient.CheckUpdateDataIds(List`1 cacheDatas, List`1 inInitializingCacheList)
+   at Nacos.V2.Config.Impl.ConfigHttpTransportClient.<LongPolling>b__33_0(Object x)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:18.503
+LogLevel：Information
+Message：[REGISTER-SERVICE] "public" deregistering service "Aspire.Core.Api" with instance: "Instance{instanceId='', ip='192.168.0.105', port=9291, weight=1, healthy=True, enabled=True, ephemeral=True, clusterName='DEFAULT', serviceName='', metadata={}}"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:18.504
+LogLevel：Information
+Message：[BEAT] removing beat: "DEFAULT_GROUP@@Aspire.Core.Api":"192.168.0.105":9291 from beat map.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:21.199
+LogLevel：Debug
+Message：failover switch is not found, "00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:22.563
+LogLevel：Error
+Message：[NA] failed to request
+System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.CallServer(String api, Dictionary`2 paramters, Dictionary`2 body, String curServer, HttpMethod method)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:22.573
+LogLevel：Debug
+Message：request "http://localhost:8848" failed.
+Nacos.V2.Exceptions.NacosException: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.CallServer(String api, Dictionary`2 paramters, Dictionary`2 body, String curServer, HttpMethod method)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.ReqApi(String url, Dictionary`2 paramters, Dictionary`2 body, List`1 servers, HttpMethod method)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:26.208
+LogLevel：Debug
+Message：failover switch is not found, "00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:26.693
+LogLevel：Error
+Message：[NA] failed to request
+System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.CallServer(String api, Dictionary`2 paramters, Dictionary`2 body, String curServer, HttpMethod method)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:26.703
+LogLevel：Debug
+Message：request "http://localhost:8848" failed.
+Nacos.V2.Exceptions.NacosException: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.CallServer(String api, Dictionary`2 paramters, Dictionary`2 body, String curServer, HttpMethod method)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.ReqApi(String url, Dictionary`2 paramters, Dictionary`2 body, List`1 servers, HttpMethod method)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:30.810
+LogLevel：Error
+Message：[NA] failed to request
+System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.CallServer(String api, Dictionary`2 paramters, Dictionary`2 body, String curServer, HttpMethod method)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:30.820
+LogLevel：Debug
+Message：request "http://localhost:8848" failed.
+Nacos.V2.Exceptions.NacosException: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.CallServer(String api, Dictionary`2 paramters, Dictionary`2 body, String curServer, HttpMethod method)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.ReqApi(String url, Dictionary`2 paramters, Dictionary`2 body, List`1 servers, HttpMethod method)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:31.212
+LogLevel：Debug
+Message：failover switch is not found, "00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:34.898
+LogLevel：Error
+Message：[NA] failed to request
+System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.CallServer(String api, Dictionary`2 paramters, Dictionary`2 body, String curServer, HttpMethod method)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:34.908
+LogLevel：Debug
+Message：request "http://localhost:8848" failed.
+Nacos.V2.Exceptions.NacosException: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.CallServer(String api, Dictionary`2 paramters, Dictionary`2 body, String curServer, HttpMethod method)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.ReqApi(String url, Dictionary`2 paramters, Dictionary`2 body, List`1 servers, HttpMethod method)
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:34.910
+LogLevel：Error
+Message：request: "/nacos/v1/ns/instance" failed, servers: ["http://localhost:8848"], code: 500, msg: "由于目标计算机积极拒绝，无法连接。 (localhost:8848)"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:34.944
+LogLevel：Information
+Message：Stop EventBus Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:34.944
+LogLevel：Information
+Message：Stop Consul Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:34.945
+LogLevel：Information
+Message：Stop QuartzJob Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:04:34.945
+LogLevel：Information
+Message：Stop Initialization Db Seed Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:46:59.575
+LogLevel：Information
+Message：Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:46:59.607
+LogLevel：Information
+Message：Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:46:59.608
+LogLevel：Information
+Message：Quartz Scheduler created
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:46:59.613
+LogLevel：Information
+Message：RAMJobStore initialized.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:46:59.615
+LogLevel：Information
+Message：Quartz Scheduler 3.7.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:46:59.616
+LogLevel：Information
+Message：Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:46:59.616
+LogLevel：Information
+Message：Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:46:59.645
+LogLevel：Information
+Message：Start Initialization Db Seed Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:47:00.344
+LogLevel：Information
+Message：Start QuartzJob Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:47:00.366
+LogLevel：Information
+Message：JobFactory set to: Aspire.Core.Tasks.JobFactory
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:47:00.371
+LogLevel：Information
+Message：Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:47:00.392
+LogLevel：Information
+Message：Start Consul Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:47:00.395
+LogLevel：Information
+Message：Start EventBus Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:47:00.576
+LogLevel：Information
+Message：Now listening on: "http://[::]:9291"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:47:00.577
+LogLevel：Information
+Message：Application started. Press Ctrl+C to shut down.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:47:00.578
+LogLevel：Information
+Message：Hosting environment: "Development"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:47:00.579
+LogLevel：Information
+Message：Content root path: "C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:47:24.326
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:47:24.373
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-09 17:47:24","Date":"2023-12-09","Week":"周六"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:47:25.684
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"  responded 200 in 1299.1152 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:47:25.690
+LogLevel：Information
+Message：{"result":true}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:47:25.697
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-09 17:47:24","OPTime":"1363ms","RequestMethod":"POST","RequestData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:47:30.803
+LogLevel：Information
+Message：{"Path":"/api/Values","QueryString":"","BodyData":"{\"bID\":10,\"bsubmitter\":\"222\",\"btitle\":\"33333\",\"bcategory\":\"4444\",\"bcontent\":\"5555\",\"btraffic\":0,\"bcommentNum\":0,\"bUpdateTime\":\"2018-11-08T02:36:26.557Z\",\"bCreateTime\":\"2018-11-08T02:36:26.557Z\",\"bRemark\":\"string\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:47:30.824
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/values","Datetime":"2023-12-09 17:47:30","Date":"2023-12-09","Week":"周六"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:47:30.831
+LogLevel：Information
+Message：HTTP "POST" "/api/Values" QueryString:"" Body:"{\"bID\":10,\"bsubmitter\":\"222\",\"btitle\":\"33333\",\"bcategory\":\"4444\",\"bcontent\":\"5555\",\"btraffic\":0,\"bcommentNum\":0,\"bUpdateTime\":\"2018-11-08T02:36:26.557Z\",\"bCreateTime\":\"2018-11-08T02:36:26.557Z\",\"bRemark\":\"string\"}"  responded 404 in 4.5498 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:47:30.837
+LogLevel：Information
+Message：Status Code: 404; Not Found                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:47:30.841
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/values","BeginTime":"2023-12-09 17:47:30","OPTime":"34ms","RequestMethod":"POST","RequestData":"{\"bID\":10,\"bsubmitter\":\"222\",\"btitle\":\"33333\",\"bcategory\":\"4444\",\"bcontent\":\"5555\",\"btraffic\":0,\"bcommentNum\":0,\"bUpdateTime\":\"2018-11-08T02:36:26.557Z\",\"bCreateTime\":\"2018-11-08T02:36:26.557Z\",\"bRemark\":\"string\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:47:38.672
+LogLevel：Information
+Message：{"Path":"/api/Values","QueryString":"","BodyData":"name=112"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:47:38.710
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/values","Datetime":"2023-12-09 17:47:38","Date":"2023-12-09","Week":"周六"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:47:38.712
+LogLevel：Information
+Message：HTTP "POST" "/api/Values" QueryString:"" Body:"name=112"  responded 404 in 0.1557 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:47:38.718
+LogLevel：Information
+Message：Status Code: 404; Not Found                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:47:38.720
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/values","BeginTime":"2023-12-09 17:47:38","OPTime":"45ms","RequestMethod":"POST","RequestData":"name=112","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:47:41.079
+LogLevel：Information
+Message：{"Path":"/api/Values","QueryString":"","BodyData":"name=112"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:47:41.104
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/values","Datetime":"2023-12-09 17:47:41","Date":"2023-12-09","Week":"周六"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:47:41.106
+LogLevel：Information
+Message：HTTP "POST" "/api/Values" QueryString:"" Body:"name=112"  responded 404 in 0.1139 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:47:41.108
+LogLevel：Information
+Message：Status Code: 404; Not Found                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:47:41.111
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/values","BeginTime":"2023-12-09 17:47:41","OPTime":"29ms","RequestMethod":"POST","RequestData":"name=112","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 17:50:19.179
+LogLevel：Information
+Message：HTTP "GET" "/redoc/" QueryString:"" Body:""  responded 404 in 0.1322 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:34:03.382
+LogLevel：Information
+Message：Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:34:03.414
+LogLevel：Information
+Message：Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:34:03.415
+LogLevel：Information
+Message：Quartz Scheduler created
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:34:03.416
+LogLevel：Information
+Message：RAMJobStore initialized.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:34:03.422
+LogLevel：Information
+Message：Quartz Scheduler 3.7.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:34:03.423
+LogLevel：Information
+Message：Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:34:03.424
+LogLevel：Information
+Message：Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:34:03.459
+LogLevel：Information
+Message：Start Initialization Db Seed Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:34:04.230
+LogLevel：Information
+Message：Start QuartzJob Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:34:04.251
+LogLevel：Information
+Message：JobFactory set to: Aspire.Core.Tasks.JobFactory
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:34:04.256
+LogLevel：Information
+Message：Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:34:04.278
+LogLevel：Information
+Message：Start Consul Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:34:04.281
+LogLevel：Information
+Message：Start EventBus Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:34:04.456
+LogLevel：Information
+Message：Now listening on: "http://[::]:9291"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:34:04.457
+LogLevel：Information
+Message：Application started. Press Ctrl+C to shut down.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:34:04.458
+LogLevel：Information
+Message：Hosting environment: "Development"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:34:04.459
+LogLevel：Information
+Message：Content root path: "C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:34:08.341
+LogLevel：Information
+Message：{"Path":"/api/Values","QueryString":"","BodyData":"{\"bID\":10,\"bsubmitter\":\"222\",\"btitle\":\"33333\",\"bcategory\":\"4444\",\"bcontent\":\"5555\",\"btraffic\":0,\"bcommentNum\":0,\"bUpdateTime\":\"2018-11-08T02:36:26.557Z\",\"bCreateTime\":\"2018-11-08T02:36:26.557Z\",\"bRemark\":\"string\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:34:08.721
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/values","Datetime":"2023-12-09 18:34:08","Date":"2023-12-09","Week":"周六"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:34:08.783
+LogLevel：Information
+Message：HTTP "GET" "/favicon.ico" QueryString:"" Body:""  responded 404 in 100.0984 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:34:08.783
+LogLevel：Information
+Message：HTTP "POST" "/api/Values" QueryString:"" Body:"{\"bID\":10,\"bsubmitter\":\"222\",\"btitle\":\"33333\",\"bcategory\":\"4444\",\"bcontent\":\"5555\",\"btraffic\":0,\"bcommentNum\":0,\"bUpdateTime\":\"2018-11-08T02:36:26.557Z\",\"bCreateTime\":\"2018-11-08T02:36:26.557Z\",\"bRemark\":\"string\"}"  responded 404 in 55.5051 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:34:08.793
+LogLevel：Information
+Message：Status Code: 404; Not Found                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:34:08.798
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/values","BeginTime":"2023-12-09 18:34:08","OPTime":"117ms","RequestMethod":"POST","RequestData":"{\"bID\":10,\"bsubmitter\":\"222\",\"btitle\":\"33333\",\"bcategory\":\"4444\",\"bcontent\":\"5555\",\"btraffic\":0,\"bcommentNum\":0,\"bUpdateTime\":\"2018-11-08T02:36:26.557Z\",\"bCreateTime\":\"2018-11-08T02:36:26.557Z\",\"bRemark\":\"string\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:34:17.865
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:34:17.882
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-09 18:34:17","Date":"2023-12-09","Week":"周六"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:34:18.609
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:34:18.624
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-09 18:34:18","Date":"2023-12-09","Week":"周六"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:34:19.056
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"  responded 200 in 1172.3463 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:34:19.059
+LogLevel：Information
+Message：{"result":true}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:34:19.060
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-09 18:34:17","OPTime":"449ms","RequestMethod":"POST","RequestData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:34:19.155
+LogLevel：Information
+Message：HTTP "GET" "/mini-profiler-resources/includes.min.js" QueryString:"?v=4.2.22+4563a9e1ab" Body:""  responded 404 in 3.7230 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:34:19.206
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"  responded 200 in 578.8582 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:34:19.208
+LogLevel：Information
+Message：{"result":true}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:34:19.209
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-09 18:34:18","OPTime":"449ms","RequestMethod":"POST","RequestData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:34:19.298
+LogLevel：Information
+Message：HTTP "GET" "/swagger/V2/swagger.json" QueryString:"" Body:""  responded 404 in 0.2067 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:34:31.376
+LogLevel：Information
+Message：HTTP "GET" "/swagger/V2/swagger.json" QueryString:"" Body:""  responded 404 in 0.2906 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:34:44.381
+LogLevel：Information
+Message：HTTP "GET" "/swagger/V2/swagger.json" QueryString:"" Body:""  responded 404 in 0.1895 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:35:08.946
+LogLevel：Information
+Message：HTTP "GET" "/756674defce81e90acea.worker.js.map" QueryString:"" Body:""  responded 404 in 0.1420 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:35:29.115
+LogLevel：Information
+Message：HTTP "GET" "/756674defce81e90acea.worker.js.map" QueryString:"" Body:""  responded 404 in 0.1297 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:35:35.812
+LogLevel：Information
+Message：HTTP "GET" "/756674defce81e90acea.worker.js.map" QueryString:"" Body:""  responded 404 in 0.1805 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:35:47.159
+LogLevel：Information
+Message：HTTP "GET" "/756674defce81e90acea.worker.js.map" QueryString:"" Body:""  responded 404 in 0.1363 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:35:53.322
+LogLevel：Information
+Message：Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:35:53.351
+LogLevel：Information
+Message：Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:35:53.352
+LogLevel：Information
+Message：Quartz Scheduler created
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:35:53.354
+LogLevel：Information
+Message：RAMJobStore initialized.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:35:53.361
+LogLevel：Information
+Message：Quartz Scheduler 3.7.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:35:53.362
+LogLevel：Information
+Message：Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:35:53.363
+LogLevel：Information
+Message：Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:35:53.410
+LogLevel：Information
+Message：Start Initialization Db Seed Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:35:54.085
+LogLevel：Information
+Message：Start QuartzJob Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:35:54.104
+LogLevel：Information
+Message：JobFactory set to: Aspire.Core.Tasks.JobFactory
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:35:54.108
+LogLevel：Information
+Message：Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:35:54.128
+LogLevel：Information
+Message：Start Consul Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:35:54.130
+LogLevel：Information
+Message：Start EventBus Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:35:54.260
+LogLevel：Information
+Message：Now listening on: "http://[::]:9291"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:35:54.262
+LogLevel：Information
+Message：Application started. Press Ctrl+C to shut down.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:35:54.262
+LogLevel：Information
+Message：Hosting environment: "Development"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:35:54.263
+LogLevel：Information
+Message：Content root path: "C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:36:16.908
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:36:16.951
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-09 18:36:16","Date":"2023-12-09","Week":"周六"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:36:18.317
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"  responded 200 in 1357.2343 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:36:18.321
+LogLevel：Information
+Message：{"result":true}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:36:18.326
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-09 18:36:16","OPTime":"1409ms","RequestMethod":"POST","RequestData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:38:25.096
+LogLevel：Information
+Message：Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:38:25.124
+LogLevel：Information
+Message：Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:38:25.125
+LogLevel：Information
+Message：Quartz Scheduler created
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:38:25.126
+LogLevel：Information
+Message：RAMJobStore initialized.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:38:25.128
+LogLevel：Information
+Message：Quartz Scheduler 3.7.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:38:25.132
+LogLevel：Information
+Message：Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:38:25.133
+LogLevel：Information
+Message：Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:38:25.171
+LogLevel：Information
+Message：Start Initialization Db Seed Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:38:25.819
+LogLevel：Information
+Message：Start QuartzJob Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:38:25.840
+LogLevel：Information
+Message：JobFactory set to: Aspire.Core.Tasks.JobFactory
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:38:25.844
+LogLevel：Information
+Message：Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:38:25.866
+LogLevel：Information
+Message：Start Consul Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:38:25.868
+LogLevel：Information
+Message：Start EventBus Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:38:25.988
+LogLevel：Information
+Message：Now listening on: "http://[::]:9291"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:38:25.989
+LogLevel：Information
+Message：Application started. Press Ctrl+C to shut down.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:38:25.990
+LogLevel：Information
+Message：Hosting environment: "Development"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:38:25.991
+LogLevel：Information
+Message：Content root path: "C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:38:44.612
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:38:44.647
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-09 18:38:44","Date":"2023-12-09","Week":"周六"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:38:45.781
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"  responded 200 in 1124.4439 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:38:45.785
+LogLevel：Information
+Message：{"result":true}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:38:45.789
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-09 18:38:44","OPTime":"1170ms","RequestMethod":"POST","RequestData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:39:13.544
+LogLevel：Information
+Message：Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:39:13.571
+LogLevel：Information
+Message：Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:39:13.572
+LogLevel：Information
+Message：Quartz Scheduler created
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:39:13.573
+LogLevel：Information
+Message：RAMJobStore initialized.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:39:13.578
+LogLevel：Information
+Message：Quartz Scheduler 3.7.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:39:13.579
+LogLevel：Information
+Message：Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:39:13.580
+LogLevel：Information
+Message：Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:39:13.621
+LogLevel：Information
+Message：Start Initialization Db Seed Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:39:14.305
+LogLevel：Information
+Message：Start QuartzJob Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:39:14.334
+LogLevel：Information
+Message：JobFactory set to: Aspire.Core.Tasks.JobFactory
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:39:14.339
+LogLevel：Information
+Message：Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:39:14.368
+LogLevel：Information
+Message：Start Consul Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:39:14.370
+LogLevel：Information
+Message：Start EventBus Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:39:14.488
+LogLevel：Information
+Message：Now listening on: "http://[::]:9291"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:39:14.490
+LogLevel：Information
+Message：Application started. Press Ctrl+C to shut down.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:39:14.490
+LogLevel：Information
+Message：Hosting environment: "Development"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:39:14.491
+LogLevel：Information
+Message：Content root path: "C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:39:25.295
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:39:25.331
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-09 18:39:25","Date":"2023-12-09","Week":"周六"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:39:26.233
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:39:26.248
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-09 18:39:26","Date":"2023-12-09","Week":"周六"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:39:26.470
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"  responded 200 in 1105.5783 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:39:26.475
+LogLevel：Information
+Message：{"result":true}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:39:26.480
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-09 18:39:25","OPTime":"242ms","RequestMethod":"POST","RequestData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:39:26.577
+LogLevel：Information
+Message：HTTP "GET" "/mini-profiler-resources/includes.min.js" QueryString:"?v=4.2.22+4563a9e1ab" Body:""  responded 404 in 3.1031 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:39:26.886
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"  responded 200 in 635.5831 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:39:26.887
+LogLevel：Information
+Message：{"result":true}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:39:26.889
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-09 18:39:26","OPTime":"242ms","RequestMethod":"POST","RequestData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:42:15.362
+LogLevel：Information
+Message：HTTP "GET" "/docs" QueryString:"" Body:""  responded 404 in 0.1665 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:57:22.931
+LogLevel：Information
+Message：Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:57:22.976
+LogLevel：Information
+Message：Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:57:22.977
+LogLevel：Information
+Message：Quartz Scheduler created
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:57:22.985
+LogLevel：Information
+Message：RAMJobStore initialized.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:57:22.987
+LogLevel：Information
+Message：Quartz Scheduler 3.7.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:57:22.988
+LogLevel：Information
+Message：Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:57:22.989
+LogLevel：Information
+Message：Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:57:23.044
+LogLevel：Information
+Message：Start Initialization Db Seed Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:57:23.795
+LogLevel：Information
+Message：Start QuartzJob Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:57:23.816
+LogLevel：Information
+Message：JobFactory set to: Aspire.Core.Tasks.JobFactory
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:57:23.820
+LogLevel：Information
+Message：Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:57:23.843
+LogLevel：Information
+Message：Start Consul Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:57:23.846
+LogLevel：Information
+Message：Start EventBus Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:57:24.042
+LogLevel：Information
+Message：Now listening on: "http://[::]:9291"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:57:24.044
+LogLevel：Information
+Message：Application started. Press Ctrl+C to shut down.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:57:24.045
+LogLevel：Information
+Message：Hosting environment: "Development"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:57:24.046
+LogLevel：Information
+Message：Content root path: "C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:57:41.698
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:57:41.750
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-09 18:57:41","Date":"2023-12-09","Week":"周六"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:57:43.210
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"  responded 200 in 1413.7733 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:57:43.215
+LogLevel：Information
+Message：{"result":true}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:57:43.222
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-09 18:57:41","OPTime":"1516ms","RequestMethod":"POST","RequestData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:57:43.306
+LogLevel：Information
+Message：HTTP "GET" "/mini-profiler-resources/includes.min.js" QueryString:"?v=4.2.22+4563a9e1ab" Body:""  responded 404 in 9.2848 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:58:04.698
+LogLevel：Information
+Message：HTTP "GET" "/mini-profiler-resources/includes.min.js" QueryString:"?v=4.2.22+4563a9e1ab" Body:""  responded 404 in 0.2663 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:58:04.698
+LogLevel：Information
+Message：HTTP "GET" "/swagger-ui.css" QueryString:"" Body:""  responded 404 in 0.1358 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:58:04.749
+LogLevel：Information
+Message：HTTP "GET" "/swagger-ui-bundle.js" QueryString:"" Body:""  responded 404 in 0.1679 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:58:04.749
+LogLevel：Information
+Message：HTTP "GET" "/swagger-ui-standalone-preset.js" QueryString:"" Body:""  responded 404 in 0.1057 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 18:58:29.966
+LogLevel：Information
+Message：HTTP "GET" "/swagger-ui.css" QueryString:"" Body:""  responded 404 in 0.1379 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:17:45.367
+LogLevel：Information
+Message：Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:17:45.407
+LogLevel：Information
+Message：Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:17:45.408
+LogLevel：Information
+Message：Quartz Scheduler created
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:17:45.409
+LogLevel：Information
+Message：RAMJobStore initialized.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:17:45.438
+LogLevel：Information
+Message：Quartz Scheduler 3.7.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:17:45.439
+LogLevel：Information
+Message：Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:17:45.440
+LogLevel：Information
+Message：Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:17:45.485
+LogLevel：Information
+Message：Start Initialization Db Seed Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:17:46.508
+LogLevel：Information
+Message：Start QuartzJob Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:17:46.538
+LogLevel：Information
+Message：JobFactory set to: Aspire.Core.Tasks.JobFactory
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:17:46.544
+LogLevel：Information
+Message：Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:17:46.578
+LogLevel：Information
+Message：Start Consul Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:17:46.582
+LogLevel：Information
+Message：Start EventBus Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:17:46.773
+LogLevel：Information
+Message：Now listening on: "http://[::]:9291"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:17:46.774
+LogLevel：Information
+Message：Application started. Press Ctrl+C to shut down.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:17:46.775
+LogLevel：Information
+Message：Hosting environment: "Development"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:17:46.777
+LogLevel：Information
+Message：Content root path: "C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:17:52.599
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:17:52.645
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-09 19:17:52","Date":"2023-12-09","Week":"周六"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:17:53.801
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:17:53.818
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-09 19:17:53","Date":"2023-12-09","Week":"周六"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:17:53.992
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"  responded 200 in 1331.5042 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:17:54.002
+LogLevel：Information
+Message：{"result":true}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:17:54.008
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-09 19:17:52","OPTime":"201ms","RequestMethod":"POST","RequestData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:17:54.159
+LogLevel：Information
+Message：HTTP "GET" "/mini-profiler-resources/includes.min.js" QueryString:"?v=4.2.22+4563a9e1ab" Body:""  responded 404 in 8.7670 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:17:54.480
+LogLevel：Information
+Message：HTTP "GET" "/swagger/V2/swagger.json" QueryString:"" Body:""  responded 404 in 0.1979 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:17:54.839
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"  responded 200 in 1019.0389 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:17:54.841
+LogLevel：Information
+Message：{"result":true}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:17:54.844
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-09 19:17:53","OPTime":"201ms","RequestMethod":"POST","RequestData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:18:09.945
+LogLevel：Information
+Message：HTTP "GET" "/swagger/V2/swagger.json" QueryString:"" Body:""  responded 404 in 0.1081 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:19:08.515
+LogLevel：Information
+Message：HTTP "GET" "/swagger/V2/swagger.json" QueryString:"" Body:""  responded 404 in 0.1821 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:19:19.903
+LogLevel：Information
+Message：HTTP "GET" "/swagger/v2/swagger.json" QueryString:"" Body:""  responded 404 in 0.1220 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:22:19.990
+LogLevel：Information
+Message：Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:22:20.016
+LogLevel：Information
+Message：Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:22:20.017
+LogLevel：Information
+Message：Quartz Scheduler created
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:22:20.018
+LogLevel：Information
+Message：RAMJobStore initialized.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:22:20.019
+LogLevel：Information
+Message：Quartz Scheduler 3.7.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:22:20.024
+LogLevel：Information
+Message：Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:22:20.025
+LogLevel：Information
+Message：Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:22:20.063
+LogLevel：Information
+Message：Start Initialization Db Seed Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:22:20.665
+LogLevel：Information
+Message：Start QuartzJob Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:22:20.685
+LogLevel：Information
+Message：JobFactory set to: Aspire.Core.Tasks.JobFactory
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:22:20.689
+LogLevel：Information
+Message：Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:22:20.711
+LogLevel：Information
+Message：Start Consul Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:22:20.714
+LogLevel：Information
+Message：Start EventBus Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:22:20.840
+LogLevel：Information
+Message：Now listening on: "http://[::]:9291"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:22:20.842
+LogLevel：Information
+Message：Application started. Press Ctrl+C to shut down.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:22:20.843
+LogLevel：Information
+Message：Hosting environment: "Development"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:22:20.844
+LogLevel：Information
+Message：Content root path: "C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:22:27.919
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:22:27.955
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-09 19:22:27","Date":"2023-12-09","Week":"周六"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:22:29.063
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"  responded 200 in 1071.9233 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:22:29.069
+LogLevel：Information
+Message：{"result":true}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:22:29.075
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-09 19:22:27","OPTime":"1149ms","RequestMethod":"POST","RequestData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:22:29.176
+LogLevel：Information
+Message：HTTP "GET" "/mini-profiler-resources/includes.min.js" QueryString:"?v=4.2.22+4563a9e1ab" Body:""  responded 404 in 4.1806 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:23:06.088
+LogLevel：Information
+Message：HTTP "GET" "/mini-profiler-resources/includes.min.js" QueryString:"?v=4.2.22+4563a9e1ab" Body:""  responded 404 in 0.2522 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:25:11.393
+LogLevel：Information
+Message：Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:25:11.417
+LogLevel：Information
+Message：Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:25:11.418
+LogLevel：Information
+Message：Quartz Scheduler created
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:25:11.419
+LogLevel：Information
+Message：RAMJobStore initialized.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:25:11.420
+LogLevel：Information
+Message：Quartz Scheduler 3.7.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:25:11.424
+LogLevel：Information
+Message：Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:25:11.425
+LogLevel：Information
+Message：Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:25:11.461
+LogLevel：Information
+Message：Start Initialization Db Seed Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:25:12.049
+LogLevel：Information
+Message：Start QuartzJob Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:25:12.071
+LogLevel：Information
+Message：JobFactory set to: Aspire.Core.Tasks.JobFactory
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:25:12.075
+LogLevel：Information
+Message：Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:25:12.096
+LogLevel：Information
+Message：Start Consul Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:25:12.098
+LogLevel：Information
+Message：Start EventBus Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:25:12.222
+LogLevel：Information
+Message：Now listening on: "http://[::]:9291"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:25:12.223
+LogLevel：Information
+Message：Application started. Press Ctrl+C to shut down.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:25:12.224
+LogLevel：Information
+Message：Hosting environment: "Development"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:25:12.224
+LogLevel：Information
+Message：Content root path: "C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:25:19.722
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:25:19.780
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-09 19:25:19","Date":"2023-12-09","Week":"周六"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:25:20.936
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"  responded 200 in 1116.4730 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:25:20.942
+LogLevel：Information
+Message：{"result":true}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:25:20.948
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-09 19:25:19","OPTime":"1218ms","RequestMethod":"POST","RequestData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:25:21.064
+LogLevel：Information
+Message：HTTP "GET" "/mini-profiler-resources/includes.min.js" QueryString:"?v=4.2.22+4563a9e1ab" Body:""  responded 404 in 6.4956 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:25:57.442
+LogLevel：Information
+Message：HTTP "GET" "/mini-profiler-resources/includes.min.js" QueryString:"?v=4.2.22+4563a9e1ab" Body:""  responded 404 in 0.2100 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:28:33.570
+LogLevel：Information
+Message：HTTP "GET" "/mini-profiler-resources/includes.min.js" QueryString:"?v=4.2.22+4563a9e1ab" Body:""  responded 404 in 0.1589 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:29:32.259
+LogLevel：Information
+Message：HTTP "GET" "/mini-profiler-resources/includes.min.js" QueryString:"?v=4.2.22+4563a9e1ab" Body:""  responded 404 in 0.1648 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:30:59.616
+LogLevel：Information
+Message：Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:30:59.638
+LogLevel：Information
+Message：Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:30:59.639
+LogLevel：Information
+Message：Quartz Scheduler created
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:30:59.641
+LogLevel：Information
+Message：RAMJobStore initialized.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:30:59.646
+LogLevel：Information
+Message：Quartz Scheduler 3.7.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:30:59.646
+LogLevel：Information
+Message：Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:30:59.647
+LogLevel：Information
+Message：Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:30:59.682
+LogLevel：Information
+Message：Start Initialization Db Seed Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:31:00.250
+LogLevel：Information
+Message：Start QuartzJob Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:31:00.271
+LogLevel：Information
+Message：JobFactory set to: Aspire.Core.Tasks.JobFactory
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:31:00.275
+LogLevel：Information
+Message：Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:31:00.294
+LogLevel：Information
+Message：Start Consul Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:31:00.296
+LogLevel：Information
+Message：Start EventBus Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:31:00.405
+LogLevel：Information
+Message：Now listening on: "http://[::]:9291"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:31:00.406
+LogLevel：Information
+Message：Application started. Press Ctrl+C to shut down.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:31:00.407
+LogLevel：Information
+Message：Hosting environment: "Development"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:31:00.408
+LogLevel：Information
+Message：Content root path: "C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:33:36.627
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"11\",\"pwd\":\"11\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:33:36.662
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-09 19:33:36","Date":"2023-12-09","Week":"周六"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:33:37.065
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"11\",\"pwd\":\"11\"}"  responded 200 in 395.3208 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:33:37.067
+LogLevel：Information
+Message：{"result":false}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:33:37.071
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-09 19:33:36","OPTime":"437ms","RequestMethod":"POST","RequestData":"{\"name\":\"11\",\"pwd\":\"11\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:33:49.370
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"22\",\"pwd\":\"11\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:33:49.388
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-09 19:33:49","Date":"2023-12-09","Week":"周六"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:33:49.415
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"22\",\"pwd\":\"11\"}"  responded 200 in 25.5733 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:33:49.417
+LogLevel：Information
+Message：{"result":false}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:33:49.419
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-09 19:33:49","OPTime":"46ms","RequestMethod":"POST","RequestData":"{\"name\":\"22\",\"pwd\":\"11\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:35:04.667
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:35:04.687
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-09 19:35:04","Date":"2023-12-09","Week":"周六"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:35:05.271
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"  responded 200 in 581.1774 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:35:05.274
+LogLevel：Information
+Message：{"result":true}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:35:05.275
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-09 19:35:04","OPTime":"605ms","RequestMethod":"POST","RequestData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:35:05.358
+LogLevel：Information
+Message：HTTP "GET" "/mini-profiler-resources/includes.min.js" QueryString:"?v=4.2.22+4563a9e1ab" Body:""  responded 404 in 6.2237 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:37:23.214
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:37:23.235
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-09 19:37:23","Date":"2023-12-09","Week":"周六"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:37:23.854
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"  responded 200 in 616.8090 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:37:23.858
+LogLevel：Information
+Message：{"result":true}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:37:23.860
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-09 19:37:23","OPTime":"644ms","RequestMethod":"POST","RequestData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:37:23.921
+LogLevel：Information
+Message：HTTP "GET" "/mini-profiler-resources/includes.min.js" QueryString:"?v=4.2.22+4563a9e1ab" Body:""  responded 404 in 2.1408 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:38:06.508
+LogLevel：Information
+Message：HTTP "GET" "/mini-profiler-resources/includes.min.js" QueryString:"?v=4.2.22+4563a9e1ab" Body:""  responded 404 in 1.0624 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:38:19.687
+LogLevel：Information
+Message：HTTP "GET" "/mini-profiler-resources/includes.min.js" QueryString:"?v=4.2.22+4563a9e1ab" Body:""  responded 404 in 0.9522 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:38:24.294
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:38:24.311
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-09 19:38:24","Date":"2023-12-09","Week":"周六"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:38:24.873
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"  responded 200 in 560.3093 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:38:24.876
+LogLevel：Information
+Message：{"result":true}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:38:24.878
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-09 19:38:24","OPTime":"582ms","RequestMethod":"POST","RequestData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:38:24.906
+LogLevel：Information
+Message：HTTP "GET" "/mini-profiler-resources/includes.min.js" QueryString:"?v=4.2.22+4563a9e1ab" Body:""  responded 404 in 0.8698 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:38:30.271
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:38:30.287
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-09 19:38:30","Date":"2023-12-09","Week":"周六"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:38:30.764
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"  responded 200 in 474.7879 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:38:30.767
+LogLevel：Information
+Message：{"result":true}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:38:30.774
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-09 19:38:30","OPTime":"499ms","RequestMethod":"POST","RequestData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:38:30.807
+LogLevel：Information
+Message：HTTP "GET" "/mini-profiler-resources/includes.min.js" QueryString:"?v=4.2.22+4563a9e1ab" Body:""  responded 404 in 1.0488 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:38:46.273
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:38:46.288
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-09 19:38:46","Date":"2023-12-09","Week":"周六"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:38:46.756
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"  responded 200 in 465.7099 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:38:46.761
+LogLevel：Information
+Message：{"result":true}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:38:46.762
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-09 19:38:46","OPTime":"487ms","RequestMethod":"POST","RequestData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:38:46.795
+LogLevel：Information
+Message：HTTP "GET" "/mini-profiler-resources/includes.min.js" QueryString:"?v=4.2.22+4563a9e1ab" Body:""  responded 404 in 1.0613 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:38:49.952
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:38:49.967
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-09 19:38:49","Date":"2023-12-09","Week":"周六"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:38:50.446
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"  responded 200 in 476.9331 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:38:50.449
+LogLevel：Information
+Message：{"result":true}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:38:50.451
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-09 19:38:49","OPTime":"497ms","RequestMethod":"POST","RequestData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:38:50.487
+LogLevel：Information
+Message：HTTP "GET" "/mini-profiler-resources/includes.min.js" QueryString:"?v=4.2.22+4563a9e1ab" Body:""  responded 404 in 1.3276 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:38:53.464
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:38:53.478
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-09 19:38:53","Date":"2023-12-09","Week":"周六"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:38:53.951
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"  responded 200 in 470.6880 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:38:53.954
+LogLevel：Information
+Message：{"result":true}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:38:53.957
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-09 19:38:53","OPTime":"490ms","RequestMethod":"POST","RequestData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:38:53.989
+LogLevel：Information
+Message：HTTP "GET" "/mini-profiler-resources/includes.min.js" QueryString:"?v=4.2.22+4563a9e1ab" Body:""  responded 404 in 0.9615 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:41:17.600
+LogLevel：Information
+Message：HTTP "GET" "/mini-profiler-resources/includes.min.js" QueryString:"?v=4.2.22+4563a9e1ab" Body:""  responded 404 in 0.8443 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:41:51.690
+LogLevel：Information
+Message：HTTP "GET" "/mini-profiler-resources/includes.min.js" QueryString:"?v=4.2.22+4563a9e1ab" Body:""  responded 404 in 0.3155 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:42:55.764
+LogLevel：Information
+Message：Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:42:55.929
+LogLevel：Information
+Message：Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:42:55.947
+LogLevel：Information
+Message：Quartz Scheduler created
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:42:55.948
+LogLevel：Information
+Message：RAMJobStore initialized.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:42:55.951
+LogLevel：Information
+Message：Quartz Scheduler 3.7.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:42:55.953
+LogLevel：Information
+Message：Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:42:55.955
+LogLevel：Information
+Message：Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:42:56.254
+LogLevel：Information
+Message：Start Initialization Db Seed Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:42:56.873
+LogLevel：Information
+Message：Start QuartzJob Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:42:56.893
+LogLevel：Information
+Message：JobFactory set to: Aspire.Core.Tasks.JobFactory
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:42:56.896
+LogLevel：Information
+Message：Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:42:56.918
+LogLevel：Information
+Message：Start Consul Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:42:56.920
+LogLevel：Information
+Message：Start EventBus Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:42:57.045
+LogLevel：Information
+Message：Now listening on: "http://[::]:9291"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:42:57.046
+LogLevel：Information
+Message：Application started. Press Ctrl+C to shut down.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:42:57.047
+LogLevel：Information
+Message：Hosting environment: "Development"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:42:57.048
+LogLevel：Information
+Message：Content root path: "C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:43:01.067
+LogLevel：Information
+Message：HTTP "GET" "/favicon.ico" QueryString:"" Body:""  responded 404 in 52.5493 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:43:10.905
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:43:10.939
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-09 19:43:10","Date":"2023-12-09","Week":"周六"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:43:11.907
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"  responded 200 in 963.0908 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:43:11.912
+LogLevel：Information
+Message：{"result":true}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:43:11.917
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-09 19:43:10","OPTime":"1005ms","RequestMethod":"POST","RequestData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:43:11.996
+LogLevel：Information
+Message：HTTP "GET" "/mini-profiler-resources/includes.min.js" QueryString:"?v=4.2.22+4563a9e1ab" Body:""  responded 404 in 2.9574 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:45:21.109
+LogLevel：Information
+Message：HTTP "GET" "/mini-profiler-resources/includes.min.js" QueryString:"?v=4.2.22+4563a9e1ab" Body:""  responded 404 in 0.1990 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:46:52.709
+LogLevel：Information
+Message：HTTP "GET" "/mini-profiler-resources/includes.min.js" QueryString:"?v=4.2.22+4563a9e1ab" Body:""  responded 404 in 0.5755 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:49:34.040
+LogLevel：Information
+Message：HTTP "GET" "/mini-profiler-resources/includes.min.js" QueryString:"?v=4.2.22+4563a9e1ab" Body:""  responded 404 in 1.0960 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:50:18.657
+LogLevel：Information
+Message：HTTP "GET" "/mini-profiler-resources/includes.min.js" QueryString:"?v=4.2.22+4563a9e1ab" Body:""  responded 404 in 0.2877 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:50:31.919
+LogLevel：Information
+Message：HTTP "GET" "/mini-profiler-resources/includes.min.js" QueryString:"?v=4.2.22+4563a9e1ab" Body:""  responded 404 in 0.2975 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:50:39.293
+LogLevel：Information
+Message：Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:50:39.318
+LogLevel：Information
+Message：Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:50:39.319
+LogLevel：Information
+Message：Quartz Scheduler created
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:50:39.324
+LogLevel：Information
+Message：RAMJobStore initialized.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:50:39.326
+LogLevel：Information
+Message：Quartz Scheduler 3.7.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:50:39.327
+LogLevel：Information
+Message：Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:50:39.329
+LogLevel：Information
+Message：Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:50:39.396
+LogLevel：Information
+Message：Start Initialization Db Seed Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:50:40.519
+LogLevel：Information
+Message：Start QuartzJob Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:50:40.537
+LogLevel：Information
+Message：JobFactory set to: Aspire.Core.Tasks.JobFactory
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:50:40.541
+LogLevel：Information
+Message：Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:50:40.562
+LogLevel：Information
+Message：Start Consul Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:50:40.564
+LogLevel：Information
+Message：Start EventBus Service!
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:50:40.677
+LogLevel：Information
+Message：Now listening on: "http://[::]:9291"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:50:40.678
+LogLevel：Information
+Message：Application started. Press Ctrl+C to shut down.
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:50:40.679
+LogLevel：Information
+Message：Hosting environment: "Development"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:50:40.680
+LogLevel：Information
+Message：Content root path: "C:\Users\cheng\Desktop\MyProject\net8-new\Blog.Core\Aspire.Core"
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:50:46.517
+LogLevel：Information
+Message：{"Path":"/api/Login/swgLogin","QueryString":"","BodyData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:50:46.552
+LogLevel：Information
+Message：{"Ip":"::1","Url":"/api/login/swglogin","Datetime":"2023-12-09 19:50:46","Date":"2023-12-09","Week":"周六"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:50:47.599
+LogLevel：Information
+Message：HTTP "POST" "/api/Login/swgLogin" QueryString:"" Body:"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}"  responded 200 in 1038.7966 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:50:47.609
+LogLevel：Information
+Message：{"result":true}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:50:47.613
+LogLevel：Information
+Message：{"User":"","IP":"::1","API":"/api/login/swglogin","BeginTime":"2023-12-09 19:50:46","OPTime":"1089ms","RequestMethod":"POST","RequestData":"{\"name\":\"Aspireadmin\",\"pwd\":\"Aspireadmin\"}","Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:50:47.689
+LogLevel：Information
+Message：HTTP "GET" "/mini-profiler-resources/includes.min.js" QueryString:"?v=4.2.22+4563a9e1ab" Body:""  responded 404 in 4.8993 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:51:30.474
+LogLevel：Information
+Message：HTTP "GET" "/mini-profiler-resources/includes.min.js" QueryString:"?v=4.2.22+4563a9e1ab" Body:""  responded 404 in 0.4167 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:51:42.891
+LogLevel：Information
+Message：HTTP "GET" "/mini-profiler-resources/includes.min.js" QueryString:"?v=4.2.22+4563a9e1ab" Body:""  responded 404 in 0.3103 ms
+----------------------------------------------------------------------------------------------------
+Date：2023-12-09 19:51:47.303
+LogLevel：Information
+Message：HTTP "GET" "/mini-profiler-resources/includes.min.js" QueryString:"?v=4.2.22+4563a9e1ab" Body:""  responded 404 in 0.3617 ms
+----------------------------------------------------------------------------------------------------
