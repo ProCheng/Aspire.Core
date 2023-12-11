@@ -11,8 +11,7 @@ namespace Aspire.Core.Controllers.v2
     [Authorize(Permissions.Name)]
     public class ApbController : ControllerBase
     {
-
-
+        
         /************************************************/
         // 如果需要使用Http协议带名称的，比如这种 [HttpGet("apbs")]
         // 目前只能把[CustomRoute(ApiVersions.v2)] 提到 controller 的上边，做controller的特性
